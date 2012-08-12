@@ -1,0 +1,2 @@
+<a href="/" onclick="show_tab('1');return false;"><img src="images/VP-sitelogo.png" title="VISUALPLANT is a platform for companies to upload, manage and distribute video on the Internet." alt="VISULPLANT:&trade;"></a>
+	<span style="font-size:16px;font-weight:bold;"><i></i></span>
