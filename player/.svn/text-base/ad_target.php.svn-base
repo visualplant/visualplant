@@ -1,0 +1,23 @@
+<?php
+	//echo "&fail=true4";die;
+	include_once('../libs/config/config.inc.php');
+	require_once(SITEPATH.'/classes/json.php');
+	$json = new Services_JSON;
+	include_once(SITEPATH.'/includes/datacache.php');
+	$cacheName = base64_encode($_GET['seed_curr'].$_GET['seed_last'].$_GET['category'].$_GET['tags'].$_SESSION['search_criteria'].$_GET['date']);
+	//6 is the current seed
+	//7 is the previous seed
+	//8 is the category
+	//9 is the tag
+	//10 is the date
+	//11 is the search
+	$ad_array = dataCache(VPSERVICEURL.'Core/Ads/JSON/'.SITE_PASSKEY.'/Get_Ad/'.base64_encode($_GET['seed_curr']).'/'.base64_encode($_GET['seed_last']).'/'.base64_encode($_GET['category']).'/'.base64_encode($_GET['tags']).'/'.base64_encode($_SESSION['search_criteria']).'/'.base64_encode($_GET['date']), $cacheName, 'flashAdInfo');
+	$ad_array = $json->decode($ad_array, true);
+	print_r($ad_array->ad_info->message);
+	//$ad_array = $advert->get_ad($_GET['seed_curr'] .":". $_GET['seed_last'] .":". $_GET['category'] .":".$_GET['tags'].":".urlencode(addslashes(($_SESSION['search_criteria']))).":".$_GET['date']);
+	//$ad_array = $advert->get_ad($_GET['seed_curr'] .":". $_GET['seed_last'] .":". $_GET['category'] .":".$_GET['tags'].":".$_GET['date']);
+	//unset($_SESSION['search_criteria']);
+	//print "&fail=".$_GET['tags_passed'];
+	//echo "<pre>";
+	//print_r($ad_array);
+?>

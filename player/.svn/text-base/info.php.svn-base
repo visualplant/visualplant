@@ -1,0 +1,72 @@
+<?php
+	/*
+	if(!isset($_GET["seed"]) || !isset($_GET["item"])){
+		die ("&info=Error occurred while processing; required information not provided.");
+	}
+	
+	include_once '../../functions/global.php';
+	db_connect();
+	error_reporting(E_ALL);
+
+	$sql = "SELECT * FROM video_pageRef WHERE refId = '$_GET[seed]'";
+	$query = mysql_query($sql);
+	if(mysql_num_rows($query) != FALSE){
+		$row = mysql_fetch_assoc($query);
+		$sql = "SELECT * FROM video_instances WHERE id=" . $row["PlaylistId"];
+		$row = mysql_fetch_assoc(mysql_query($sql));
+		$_GET["seed"] = $row["refId"];
+	}
+	
+	$sql = "SELECT * FROM video_media WHERE refId = '$_GET[seed]'";
+	$query = mysql_query($sql);
+	if(mysql_num_rows($query) == FALSE){
+		$sql = "SELECT * FROM video_instances WHERE refId = '$_GET[seed]'";
+		$query = mysql_query($sql);
+		if(mysql_num_rows($query) == FALSE){
+			die ("&info=Error occurred while processing; no item with this seed value exists.");
+		}
+		$result = mysql_fetch_assoc($query);
+		$z = unserialize($result["data"]);
+		$spotID = $z[$_GET["item"]]["id"];
+		
+		$sql = "SELECT * FROM video_media WHERE id='$spotID'";
+		$query = mysql_query($sql);
+	}
+	
+	$spot_row = mysql_fetch_assoc($query);
+	$refId = $spot_row["refId"];
+	
+	$sql = 'SELECT			credits.id,			credits_titles.title,			credits_values.value		FROM			credits,			credits_titles,			credits_values,			video_media		WHERE			credits.mediaId = video_media.id AND			video_media.refId = "' . $refId . '" AND			(				credits.titleId = credits_titles.id AND				credits.valueId = credits_values.id			)		ORDER BY			credits.id';
+	$query = mysql_query($sql);
+	
+	$creds = array();
+	while($row = mysql_fetch_assoc($query)){
+		$creds[] = $row;
+	}
+
+	$out = "&info=";	
+	$outCredits = "";
+	foreach($creds as $a){
+		$outCredits .= $a["title"] . ": " . $a["value"] . "<br/>";
+	}
+	*/
+	$output = '<p style="color: #000000; border: 1px solid rgb(187, 187, 187); padding: 4px; font-size: 10px;">
+			<span style="font-size: 160%;"><b>title</b></span>
+			<br/>
+			description small
+			</p>
+			<p style="color: #000000; border: 1px solid rgb(187, 187, 187); padding: 4px; font-size: 10px; ">
+			<b>Credits</b><br>
+			credits
+			</p>';
+			
+	
+	$output = str_replace("\n", "", $output);
+	$output = str_replace("\t", "", $output);	
+	
+	$out .= $output;
+		
+	print $out;
+	
+
+?>

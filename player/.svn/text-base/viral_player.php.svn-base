@@ -1,0 +1,79 @@
+<?php
+
+	include_once('../libs/config/config.inc.php');
+	require_once(SITEPATH.'/classes/json.php');
+	$json = new Services_JSON;
+	include_once(SITEPATH.'/includes/datacache.php');
+	$flashDomains = dataCache(VPSERVICEURL.'Core/Flash_Allow_Domain/JSON/'.SITE_PASSKEY.'/'.$_GET['seed'], $_GET['seed'], 'flashDomainInfo');
+	$flashDomains = $json->decode($flashDomains, true);
+	$domain_ary = explode(",", $flashDomains->flash_domain_info->allowedDomains);
+	$sharing = $flashDomains->flash_domain_info->sharing;
+	
+	
+	//got the vars now lets put them into a cache file for the player, and process what we need to here locally
+	$temp[0]['allowedDomains'] = $flashDomains->flash_domain_info->allowedDomains;
+	$temp[0]['sharing'] = $flashDomains->flash_domain_info->sharing;
+	$row_array = var_export($temp, true);
+						
+	$result_array = '<?php ';
+	$serialized_result = $row_array;
+	$result_array .= '$s=';
+	$result_array .= "$serialized_result";
+	$result_array .= ";";
+	$result_array .= ' ?>';
+	$myFile = SITEPATH.'/cache/flashcache/viral:'.$_GET['seed'].'.FLASHCACHE.php';
+	$fh = fopen($myFile, 'w+') or die("can't open file");
+	$position = 0;
+	while($result_array2 = substr($result_array, $position, 20000) ) {
+		if ($result_array2 != ''){
+			fwrite($fh, $result_array2);
+			$position += 20000;
+		}
+	}				
+	
+	
+	if($sharing == 0){
+		$aDarr = $domain_ary;
+		if(sizeOf($domain_ary) < 1){
+			$aDarr = array();
+			$aDarr[0] = $domain_ary[0];
+		}
+		
+		
+		$ref = $_SERVER['HTTP_HOST'];
+		$ref = "++" . $ref;
+		$ref = str_replace("http://", "", $ref);
+		$ref = str_replace("www.", "", $ref);
+			
+		$found = false;
+		foreach($aDarr as $b){
+
+			$b = str_replace("http://", "", $b);
+			$b = str_replace("www.", "", $b);
+
+			if(@strpos($ref, $b) == 2){
+				$found = true;
+			}
+		}
+		if(!$found){
+			
+			$file = "domainRestriction.swf";
+			$fms = file($file);
+			foreach($fms as $a){
+				print $a;
+			}
+			die;
+		}
+	}
+	
+
+//	$file = VPSERVICEURL."player/flvplayer.swf";
+	$file = "flvplayer.swf";
+	$fm = file($file);
+	foreach($fm as $a){
+		print $a;
+	}
+	
+?>
+
+

@@ -1,1 +1,0 @@
-<img src="images/red_arrow.gif"> <a href="register.php" style="color:#990000;font-weight:normal;">Sign up now</a>

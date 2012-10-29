@@ -1,0 +1,2016 @@
+admin:
+total 2692
+drwxr-xr-x  3 apache apache    4096 May 13 15:43 admin
+drwxr-xr-x  6 apache apache    4096 Aug  6 23:29 apps
+-rw-r--r--  1 root   root   2358612 Oct 21 09:50 archive.tgz
+drwxr-xr-x  2 apache apache    4096 May 13 15:43 content
+drwxr-xr-x  3 apache apache    4096 Jun 10 19:48 credits
+-rw-r--r--  1 root   root      1739 Oct 25 15:19 forgotpw.php
+drwxr-xr-x  2 apache apache    4096 Oct  2 10:34 functions
+drwxr-xr-x  4 apache apache    4096 Oct 25 18:12 images
+drwxr-xr-x  2 apache apache    4096 Aug  8 00:50 includes
+-rw-r--r--  1 apache apache     243 Oct 25 14:20 index.php
+-rw-r--r--  1 apache apache     215 Aug 11 12:00 index.php~
+drwxr-xr-x  7 apache apache    4096 Aug  6 23:41 internal
+-rw-r--r--  1 root   root      2541 Oct 24 14:53 login_new.php
+-rw-r--r--  1 apache apache    2178 Jun 18 14:58 login_old.php
+-rw-r--r--  1 apache apache    2891 Oct 20 13:25 login.php
+-rw-r--r--  1 apache apache    2731 Aug 11 11:47 login.php~
+-rw-r--r--  1 apache apache    2450 Jun 21 10:22 login.php.bak
+-rw-r--r--  1 apache apache     555 Oct 20 15:15 logout.php
+drwxr-xr-x  3 apache apache    4096 May 13 15:44 media
+-rw-r--r--  1 root   root      4770 Oct 19 06:58 new_login.php
+-rw-r--r--  1 apache apache    2478 Apr 11  2006 pagination.php
+drwxr-xr-x  9 root   root      4096 Oct 24 16:28 phpMyAdmin-2.8.0.4
+drwxr-xr-x  3 apache apache    4096 May 25 00:23 programming
+drwxr-xr-x  3 apache apache    4096 May 29 01:22 publisher
+drwxr-xr-x  3 apache apache    4096 Jul  8 03:13 reports
+drwxr-xr-x  2 apache apache    4096 Oct 18 21:00 templates
+drwxrwxr-x  2 apache apache    4096 Aug 11 17:23 test
+drwxr-xr-x  3 apache apache    4096 Aug  8 00:57 titles
+-rw-r--r--  1 apache apache  143722 May 18 02:01 visualplant_page.jpg
+drwxr-xr-x  4 apache apache    4096 May 13 15:44 work
+
+admin/admin:
+total 8
+drwxr-xr-x  4 apache apache 4096 Aug  6 23:12 users
+
+admin/admin/users:
+total 16
+drwxr-xr-x  3 apache apache 4096 Oct 26 12:35 manage
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:12 profile
+
+admin/admin/users/manage:
+total 32
+drwxr-xr-x  3 apache apache 4096 Oct 26 13:13 content
+-rw-r--r--  1 apache apache  271 Apr 11  2006 index.php
+-rw-r--r--  1 root   root    280 Oct 26 13:13 pubadmin.php
+-rw-r--r--  1 apache apache 3885 Jun 23 13:49 save.php
+
+admin/admin/users/manage/content:
+total 32
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:12 CVS
+-rw-r--r--  1 root   root   7227 Oct 26 16:19 pubadmin_users.php
+-rw-r--r--  1 apache apache 6763 Jun 23 13:56 users.php
+
+admin/admin/users/manage/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 39 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/admin/users/profile:
+total 24
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:12 content
+-rw-r--r--  1 apache apache  271 Apr 11  2006 index.php
+-rw-r--r--  1 apache apache 3391 Apr 11  2006 save.php
+
+admin/admin/users/profile/content:
+total 16
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:12 CVS
+-rw-r--r--  1 apache apache 2060 Apr 11  2006 users.php
+
+admin/admin/users/profile/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 40 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps:
+total 32
+drwxr-xr-x  5 apache apache 4096 Aug  6 23:29 emailer
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:29 imguploader
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:28 news
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:25 wysiwyg
+
+admin/apps/emailer:
+total 168
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:29 ads
+-rw-r--r--  1 apache apache  1721 Apr 11  2006 api.load.php
+-rw-r--r--  1 apache apache  1176 Apr 11  2006 api.login.php
+-rw-r--r--  1 apache apache  2562 Jun 30 09:42 api.php
+-rw-r--r--  1 apache apache  2354 Apr 11  2006 api.send.php
+-rw-r--r--  1 apache apache  1347 Apr 11  2006 api.test.php
+-rw-r--r--  1 apache apache  4285 Apr 11  2006 browse.php
+-rw-r--r--  1 apache apache  3767 Apr 11  2006 _config.inc.sample
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:29 CVS
+-rw-r--r--  1 apache apache  3688 Apr 11  2006 edit_email.php
+-rw-r--r--  1 apache apache  6958 May  1 12:03 index.php
+-rw-r--r--  1 apache apache  8541 Apr 11  2006 preview.sample
+-rw-r--r--  1 apache apache  1002 Apr 11  2006 save_email.php
+-rw-r--r--  1 apache apache  3094 May 18 06:44 save.php
+-rw-r--r--  1 apache apache 17646 May 11 07:26 selected.php
+-rw-r--r--  1 apache apache    53 Apr 11  2006 subject.inc.sample
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:29 templates.sample
+
+admin/apps/emailer/ads:
+total 100
+-rw-r--r--  1 apache apache  573 Apr 11  2006 ads.current_ads.sample
+-rw-r--r--  1 apache apache    0 Apr 11  2006 ads.current_editor_ads.sample
+-rw-r--r--  1 apache apache  232 Apr 11  2006 ads.current_text_ads.sample
+-rw-r--r--  1 apache apache 5066 Jun  9 09:02 ads_db.php
+-rw-r--r--  1 apache apache 4875 Apr 11  2006 ads.editor.php
+-rw-r--r--  1 apache apache 8403 Jun 22 11:06 ads.php
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:28 CVS
+-rw-r--r--  1 apache apache 1525 Jun 22 11:27 gen_ad.php
+-rw-r--r--  1 apache apache  923 Apr 11  2006 save_ads.php
+-rw-r--r--  1 apache apache  922 Apr 11  2006 save_editor_ads.php
+-rw-r--r--  1 apache apache  965 Apr 11  2006 save_text_ads.php
+
+admin/apps/emailer/ads/CVS:
+total 24
+-rw-r--r--  1 apache apache 445 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  29 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/apps/emailer/CVS:
+total 32
+-rw-r--r--  1 apache apache 693 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  37 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache  25 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/apps/emailer/templates.sample:
+total 72
+-rw-r--r--  1 apache apache   410 Apr 11  2006 article.tmpl
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:29 CVS
+-rw-r--r--  1 apache apache   464 Apr 11  2006 email_text.tmpl
+-rw-r--r--  1 apache apache  3760 Apr 11  2006 html.tmpl
+-rw-r--r--  1 apache apache 27006 Apr 11  2006 index.html
+-rw-r--r--  1 apache apache   392 Apr 11  2006 thumbnail.tmpl
+
+admin/apps/emailer/templates.sample/CVS:
+total 24
+-rw-r--r--  1 apache apache 247 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  42 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/apps/imguploader:
+total 0
+
+admin/apps/news:
+total 320
+-rw-r--r--  1 apache apache  1254 Apr 18  2006 active.php
+-rw-r--r--  1 apache apache  1870 Apr 18  2006 add_helptext.php
+-rw-r--r--  1 apache apache  4425 Apr 18  2006 add_list.php
+-rw-r--r--  1 apache apache  2898 Apr 18  2006 add_pullquote.php
+-rw-r--r--  1 apache apache  2606 Apr 18  2006 browse.php
+-rw-r--r--  1 apache apache  1381 May  3 09:27 checkout.php
+-rw-r--r--  1 apache apache   882 Apr 18  2006 _config.inc.sample
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:28 CVS
+-rw-r--r--  1 apache apache  1767 Apr 18  2006 delete.php
+-rw-r--r--  1 apache apache 26344 Jul 12 07:04 edit.php
+-rw-r--r--  1 apache apache 13460 Aug  3 13:33 index.php
+-rw-r--r--  1 apache apache 18215 Jul  7 07:34 insert_image.php
+-rw-r--r--  1 apache apache  3486 Apr 18  2006 insert_link.php
+-rw-r--r--  1 apache apache  6403 Aug  3 13:56 macro.php
+-rw-r--r--  1 apache apache 15504 Jul  6 08:36 media_image.php
+-rw-r--r--  1 apache apache   690 Apr 18  2006 preview.php
+-rw-r--r--  1 apache apache  2753 Aug  3 14:27 publish.php
+-rw-r--r--  1 apache apache  2723 Aug  3 14:24 pubs.php
+-rw-r--r--  1 apache apache 12149 Apr 18  2006 related_articles.php
+-rw-r--r--  1 apache apache  5475 Jun  9 08:00 save.php
+-rw-r--r--  1 apache apache   786 Apr 18  2006 save_thumb.php
+-rw-r--r--  1 apache apache   620 Apr 18  2006 save_video_thumb.php
+-rw-r--r--  1 apache apache  2272 Apr 18  2006 search.php
+-rw-r--r--  1 apache apache  6411 Jul 19 11:21 tageditor.php
+-rw-r--r--  1 apache apache  6809 Jul  6 08:28 two-abreast.php
+-rw-r--r--  1 apache apache  5775 Jul  6 08:31 two-abreast-template.php
+-rw-r--r--  1 apache apache 10314 Jul 11 11:17 video_image.php
+
+admin/apps/news/CVS:
+total 24
+-rw-r--r--  1 apache apache 1098 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache   22 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache   35 Apr 11  2006 Root
+
+admin/apps/wysiwyg:
+total 8
+drwxr-xr-x  7 apache apache 4096 Aug  6 23:27 tool
+
+admin/apps/wysiwyg/tool:
+total 236
+-rw-r--r--  1 apache apache  4742 Apr 11  2006 context-menu.html
+-rw-r--r--  1 apache apache  2978 Apr 11  2006 css.html
+-rw-r--r--  1 apache apache  1112 Apr 11  2006 custom.css
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:25 CVS
+-rw-r--r--  1 apache apache  2272 Apr 11  2006 dialog.js
+-rw-r--r--  1 apache apache  3220 Apr 11  2006 full-page.html
+-rw-r--r--  1 apache apache  4192 Apr 11  2006 htmlarea.css
+-rw-r--r--  1 apache apache 69606 Apr 11  2006 htmlarea.js
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:25 images
+-rw-r--r--  1 apache apache  2568 Apr 11  2006 initialize.js
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:26 lang
+drwxr-xr-x  8 apache apache  4096 Aug  6 23:26 plugins
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:27 popups
+-rw-r--r--  1 apache apache  3807 Apr 11  2006 popupwin.js
+-rw-r--r--  1 apache apache 26366 Apr 11  2006 reference.html
+-rw-r--r--  1 apache apache  3764 Apr 11  2006 spell-checker.html
+-rw-r--r--  1 apache apache  3979 Apr 11  2006 table-operations.html
+
+admin/apps/wysiwyg/tool/CVS:
+total 32
+-rw-r--r--  1 apache apache 604 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  59 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache  30 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/images:
+total 320
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:25 CVS
+-rw-r--r--  1 apache apache   87 Apr 11  2006 ed_about.gif
+-rw-r--r--  1 apache apache   69 Apr 11  2006 ed_align_center.gif
+-rw-r--r--  1 apache apache   69 Apr 11  2006 ed_align_justify.gif
+-rw-r--r--  1 apache apache   69 Apr 11  2006 ed_align_left.gif
+-rw-r--r--  1 apache apache   68 Apr 11  2006 ed_align_right.gif
+-rw-r--r--  1 apache apache   56 Apr 11  2006 ed_blank.gif
+-rw-r--r--  1 apache apache  143 Apr 11  2006 ed_charmap.gif
+-rw-r--r--  1 apache apache  181 Apr 11  2006 ed_color_bg.gif
+-rw-r--r--  1 apache apache  171 Apr 11  2006 ed_color_fg.gif
+-rw-r--r--  1 apache apache  110 Apr 11  2006 ed_copy.gif
+-rw-r--r--  1 apache apache   67 Apr 11  2006 ed_custom.gif
+-rw-r--r--  1 apache apache   91 Apr 11  2006 ed_cut.gif
+-rw-r--r--  1 apache apache   90 Apr 11  2006 ed_delete.gif
+-rw-r--r--  1 apache apache   74 Apr 11  2006 ed_format_bold.gif
+-rw-r--r--  1 apache apache   77 Apr 11  2006 ed_format_italic.gif
+-rw-r--r--  1 apache apache   78 Apr 11  2006 ed_format_strike.gif
+-rw-r--r--  1 apache apache   78 Apr 11  2006 ed_format_sub.gif
+-rw-r--r--  1 apache apache   77 Apr 11  2006 ed_format_sup.gif
+-rw-r--r--  1 apache apache   85 Apr 11  2006 ed_format_underline.gif
+-rw-r--r--  1 apache apache   70 Apr 11  2006 ed_help.gif
+-rw-r--r--  1 apache apache   70 Apr 11  2006 ed_hr.gif
+-rw-r--r--  1 apache apache   75 Apr 11  2006 ed_html.gif
+-rw-r--r--  1 apache apache  148 Apr 11  2006 ed_image.gif
+-rw-r--r--  1 apache apache   87 Apr 11  2006 ed_indent_less.gif
+-rw-r--r--  1 apache apache   87 Apr 11  2006 ed_indent_more.gif
+-rw-r--r--  1 apache apache   89 Apr 11  2006 ed_left_to_right.gif
+-rw-r--r--  1 apache apache   97 Apr 11  2006 ed_link.gif
+-rw-r--r--  1 apache apache   80 Apr 11  2006 ed_list_bullet.gif
+-rw-r--r--  1 apache apache   82 Apr 11  2006 ed_list_num.gif
+-rw-r--r--  1 apache apache  139 Apr 11  2006 ed_paste.gif
+-rw-r--r--  1 apache apache   80 Apr 11  2006 ed_redo.gif
+-rw-r--r--  1 apache apache   88 Apr 11  2006 ed_right_to_left.gif
+-rw-r--r--  1 apache apache  143 Apr 11  2006 ed_save.gif
+-rw-r--r--  1 apache apache  104 Apr 11  2006 ed_show_border.gif
+-rw-r--r--  1 apache apache  143 Apr 11  2006 ed_splitcel.gif
+-rw-r--r--  1 apache apache   81 Apr 11  2006 ed_undo.gif
+-rw-r--r--  1 apache apache   97 Apr 11  2006 fullscreen_maximize.gif
+-rw-r--r--  1 apache apache   97 Apr 11  2006 fullscreen_minimize.gif
+-rw-r--r--  1 apache apache  121 Apr 11  2006 insert_table.gif
+
+admin/apps/wysiwyg/tool/images/CVS:
+total 24
+-rw-r--r--  1 apache apache 2169 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache   37 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache   35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/lang:
+total 248
+-rw-r--r--  1 apache apache  992 Apr 11  2006 b5.js
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:25 CVS
+-rw-r--r--  1 apache apache 1882 Apr 11  2006 cz.js
+-rw-r--r--  1 apache apache 1189 Apr 11  2006 da.js
+-rw-r--r--  1 apache apache 1650 Apr 11  2006 de.js
+-rw-r--r--  1 apache apache 1783 Apr 11  2006 ee.js
+-rw-r--r--  1 apache apache 3861 Apr 11  2006 el.js
+-rw-r--r--  1 apache apache 3351 Apr 11  2006 en.js
+-rw-r--r--  1 apache apache 1474 Apr 11  2006 es.js
+-rw-r--r--  1 apache apache 1416 Apr 11  2006 fi.js
+-rw-r--r--  1 apache apache 1855 Apr 11  2006 fr.js
+-rw-r--r--  1 apache apache  989 Apr 11  2006 gb.js
+-rw-r--r--  1 apache apache 2198 Apr 11  2006 he.js
+-rw-r--r--  1 apache apache 1822 Apr 11  2006 hu.js
+-rw-r--r--  1 apache apache 1675 Apr 11  2006 it.js
+-rw-r--r--  1 apache apache 1045 Apr 11  2006 ja-euc.js
+-rw-r--r--  1 apache apache 1195 Apr 11  2006 ja-jis.js
+-rw-r--r--  1 apache apache 1052 Apr 11  2006 ja-sjis.js
+-rw-r--r--  1 apache apache 1169 Apr 11  2006 ja-utf8.js
+-rw-r--r--  1 apache apache 1727 Apr 11  2006 lt.js
+-rw-r--r--  1 apache apache 1798 Apr 11  2006 lv.js
+-rw-r--r--  1 apache apache 1037 Apr 11  2006 nb.js
+-rw-r--r--  1 apache apache 3511 Apr 11  2006 nl.js
+-rw-r--r--  1 apache apache 3461 Apr 11  2006 no.js
+-rw-r--r--  1 apache apache 1113 Apr 11  2006 pl.js
+-rw-r--r--  1 apache apache 1162 Apr 11  2006 pt_br.js
+-rw-r--r--  1 apache apache 3037 Apr 11  2006 ro.js
+-rw-r--r--  1 apache apache 2368 Apr 11  2006 ru.js
+-rw-r--r--  1 apache apache 1173 Apr 11  2006 se.js
+-rw-r--r--  1 apache apache 1875 Apr 11  2006 si.js
+-rw-r--r--  1 apache apache 1591 Apr 11  2006 vn.js
+
+admin/apps/wysiwyg/tool/lang/CVS:
+total 24
+-rw-r--r--  1 apache apache 1283 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache   35 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache   35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins:
+total 48
+drwxr-xr-x  4 apache apache 4096 Aug  6 23:26 ContextMenu
+drwxr-xr-x  4 apache apache 4096 Aug  6 23:26 CSS
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+drwxr-xr-x  6 apache apache 4096 Aug  6 23:26 FullPage
+drwxr-xr-x  5 apache apache 4096 Aug  6 23:26 SpellChecker
+drwxr-xr-x  5 apache apache 4096 Aug  6 23:27 TableOperations
+
+admin/apps/wysiwyg/tool/plugins/ContextMenu:
+total 44
+-rw-r--r--  1 apache apache 13052 Apr 11  2006 context-menu.js
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:26 CVS
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:26 lang
+-rw-r--r--  1 apache apache  1312 Apr 11  2006 menu.css
+
+admin/apps/wysiwyg/tool/plugins/ContextMenu/CVS:
+total 32
+-rw-r--r--  1 apache apache 99 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 13 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache 50 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/ContextMenu/lang:
+total 56
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+-rw-r--r--  1 apache apache 4147 Apr 11  2006 de.js
+-rw-r--r--  1 apache apache 5290 Apr 11  2006 el.js
+-rw-r--r--  1 apache apache 4343 Apr 11  2006 en.js
+-rw-r--r--  1 apache apache 4548 Apr 11  2006 nl.js
+
+admin/apps/wysiwyg/tool/plugins/ContextMenu/lang/CVS:
+total 24
+-rw-r--r--  1 apache apache 170 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  55 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/CSS:
+total 24
+-rw-r--r--  1 apache apache 3431 Apr 11  2006 css.js
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:26 lang
+
+admin/apps/wysiwyg/tool/plugins/CSS/CVS:
+total 32
+-rw-r--r--  1 apache apache 45 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 13 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache 42 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/CSS/lang:
+total 16
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+-rw-r--r--  1 apache apache   49 Apr 11  2006 en.js
+
+admin/apps/wysiwyg/tool/plugins/CSS/lang/CVS:
+total 24
+-rw-r--r--  1 apache apache 44 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 47 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/CVS:
+total 32
+-rw-r--r--  1 apache apache  2 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 94 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache 38 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/FullPage:
+total 48
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+-rw-r--r--  1 apache apache 3820 Apr 11  2006 full-page.js
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:26 img
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:26 lang
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:26 popups
+-rw-r--r--  1 apache apache 3737 Apr 11  2006 test.html
+
+admin/apps/wysiwyg/tool/plugins/FullPage/CVS:
+total 32
+-rw-r--r--  1 apache apache 97 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 40 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache 47 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/FullPage/img:
+total 16
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+-rw-r--r--  1 apache apache  302 Apr 11  2006 docprop.gif
+
+admin/apps/wysiwyg/tool/plugins/FullPage/img/CVS:
+total 24
+-rw-r--r--  1 apache apache 53 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 51 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/FullPage/lang:
+total 24
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+-rw-r--r--  1 apache apache  769 Apr 11  2006 en.js
+-rw-r--r--  1 apache apache  800 Apr 11  2006 ro.js
+
+admin/apps/wysiwyg/tool/plugins/FullPage/lang/CVS:
+total 24
+-rw-r--r--  1 apache apache 86 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 52 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/FullPage/popups:
+total 16
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+-rw-r--r--  1 apache apache 3276 Apr 11  2006 docprop.html
+
+admin/apps/wysiwyg/tool/plugins/FullPage/popups/CVS:
+total 24
+-rw-r--r--  1 apache apache 51 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 54 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/SpellChecker:
+total 92
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:26 CVS
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:26 img
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:26 lang
+-rw-r--r--  1 apache apache  4612 Apr 11  2006 readme-tech.html
+-rw-r--r--  1 apache apache  2164 Apr 11  2006 spell-checker.js
+-rw-r--r--  1 apache apache  6179 Apr 11  2006 spell-check-logic.cgi
+-rw-r--r--  1 apache apache   449 Apr 11  2006 spell-check-style.css
+-rw-r--r--  1 apache apache  4491 Apr 11  2006 spell-check-ui.html
+-rw-r--r--  1 apache apache 11501 Apr 11  2006 spell-check-ui.js
+
+admin/apps/wysiwyg/tool/plugins/SpellChecker/CVS:
+total 32
+-rw-r--r--  1 apache apache 334 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  25 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache  51 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/SpellChecker/img:
+total 16
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+-rw-r--r--  1 apache apache  107 Apr 11  2006 spell-check.gif
+
+admin/apps/wysiwyg/tool/plugins/SpellChecker/img/CVS:
+total 24
+-rw-r--r--  1 apache apache 57 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 55 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/SpellChecker/lang:
+total 64
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:26 CVS
+-rw-r--r--  1 apache apache 2045 Apr 11  2006 cz.js
+-rw-r--r--  1 apache apache 1874 Apr 11  2006 da.js
+-rw-r--r--  1 apache apache 1629 Apr 11  2006 de.js
+-rw-r--r--  1 apache apache 1941 Apr 11  2006 en.js
+-rw-r--r--  1 apache apache 1905 Apr 11  2006 hu.js
+-rw-r--r--  1 apache apache 1693 Apr 11  2006 it.js
+-rw-r--r--  1 apache apache 1982 Apr 11  2006 ro.js
+
+admin/apps/wysiwyg/tool/plugins/SpellChecker/lang/CVS:
+total 24
+-rw-r--r--  1 apache apache 296 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  56 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/TableOperations:
+total 64
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:27 CVS
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:27 img
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:27 lang
+-rw-r--r--  1 apache apache 35583 Apr 11  2006 table-operations.js
+
+admin/apps/wysiwyg/tool/plugins/TableOperations/CVS:
+total 32
+-rw-r--r--  1 apache apache 58 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 25 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache 54 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/TableOperations/img:
+total 136
+-rw-r--r--  1 apache apache  101 Apr 11  2006 cell-delete.gif
+-rw-r--r--  1 apache apache  118 Apr 11  2006 cell-insert-after.gif
+-rw-r--r--  1 apache apache  118 Apr 11  2006 cell-insert-before.gif
+-rw-r--r--  1 apache apache  896 Apr 11  2006 cell-merge.gif
+-rw-r--r--  1 apache apache  155 Apr 11  2006 cell-prop.gif
+-rw-r--r--  1 apache apache  907 Apr 11  2006 cell-split.gif
+-rw-r--r--  1 apache apache  100 Apr 11  2006 col-delete.gif
+-rw-r--r--  1 apache apache  111 Apr 11  2006 col-insert-after.gif
+-rw-r--r--  1 apache apache  110 Apr 11  2006 col-insert-before.gif
+-rw-r--r--  1 apache apache  908 Apr 11  2006 col-split.gif
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:27 CVS
+-rw-r--r--  1 apache apache  104 Apr 11  2006 row-delete.gif
+-rw-r--r--  1 apache apache  116 Apr 11  2006 row-insert-above.gif
+-rw-r--r--  1 apache apache  115 Apr 11  2006 row-insert-under.gif
+-rw-r--r--  1 apache apache  149 Apr 11  2006 row-prop.gif
+-rw-r--r--  1 apache apache  895 Apr 11  2006 row-split.gif
+-rw-r--r--  1 apache apache  145 Apr 11  2006 table-prop.gif
+
+admin/apps/wysiwyg/tool/plugins/TableOperations/img/CVS:
+total 24
+-rw-r--r--  1 apache apache 902 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  58 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/plugins/TableOperations/lang:
+total 116
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:27 CVS
+-rw-r--r--  1 apache apache 4364 Apr 11  2006 cz.js
+-rw-r--r--  1 apache apache 3751 Apr 11  2006 da.js
+-rw-r--r--  1 apache apache 3743 Apr 11  2006 de.js
+-rw-r--r--  1 apache apache 5120 Apr 11  2006 el.js
+-rw-r--r--  1 apache apache 4158 Apr 11  2006 en.js
+-rw-r--r--  1 apache apache 3023 Apr 11  2006 fi.js
+-rw-r--r--  1 apache apache 1822 Apr 11  2006 hu.js
+-rw-r--r--  1 apache apache 4051 Apr 11  2006 it.js
+-rw-r--r--  1 apache apache 4105 Apr 11  2006 nl.js
+-rw-r--r--  1 apache apache 3904 Apr 11  2006 no.js
+-rw-r--r--  1 apache apache 4395 Apr 11  2006 ro.js
+
+admin/apps/wysiwyg/tool/plugins/TableOperations/lang/CVS:
+total 24
+-rw-r--r--  1 apache apache 464 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  59 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/apps/wysiwyg/tool/popups:
+total 172
+-rw-r--r--  1 apache apache 12610 Apr 11  2006 about.html
+-rw-r--r--  1 apache apache    14 Apr 11  2006 blank.html
+-rw-r--r--  1 apache apache   822 Apr 11  2006 custom2.html
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:27 CVS
+-rw-r--r--  1 apache apache   198 Apr 11  2006 editor_help.html
+-rw-r--r--  1 apache apache  4783 Apr 11  2006 fullscreen.html
+-rw-r--r--  1 apache apache  8023 Apr 11  2006 insert_image.php
+-rw-r--r--  1 apache apache  4657 Apr 11  2006 insert_table.html
+-rw-r--r--  1 apache apache  4857 Apr 11  2006 insert_table.php
+-rw-r--r--  1 apache apache  3777 Apr 11  2006 link.php
+-rw-r--r--  1 apache apache  4389 Apr 11  2006 old-fullscreen.html
+-rw-r--r--  1 apache apache  8053 Apr 11  2006 old_insert_image.html
+-rw-r--r--  1 apache apache  3044 Apr 11  2006 popup.js
+-rw-r--r--  1 apache apache 28439 Apr 11  2006 select_color.html
+
+admin/apps/wysiwyg/tool/popups/CVS:
+total 24
+-rw-r--r--  1 apache apache 668 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  37 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/content:
+total 8
+-rw-r--r--  1 apache apache 487 Aug 16 01:20 home.php
+
+admin/credits:
+total 128
+-rw-r--r--  1 apache apache   105 Jun 15 00:08 admin.inc
+-rw-r--r--  1 apache apache  2389 Jun 15 00:08 browse.php
+drwxr-xr-x  2 apache apache  4096 Jun 10 19:17 content
+-rw-r--r--  1 apache apache  1193 Jun 15 00:08 doCredits.php
+-rw-r--r--  1 apache apache   266 Oct 19 17:29 editCredits.php
+-rw-r--r--  1 apache apache 10745 Jun 15 00:08 functions.js
+-rw-r--r--  1 apache apache  1648 Jun 15 00:08 getDetails.php
+-rw-r--r--  1 apache apache   125 Jun 10 19:48 ico_contact.gif
+-rw-r--r--  1 apache apache   253 Jun 15 00:20 index.php
+-rw-r--r--  1 apache apache   231 Jun 15 00:33 lookup.css
+-rw-r--r--  1 apache apache   440 Jun 15 00:08 lookup_type.js.php
+-rw-r--r--  1 apache apache   449 Jun 15 00:08 lookup_value.js.php
+-rw-r--r--  1 apache apache    76 Jun 15 00:08 new.gif
+-rw-r--r--  1 apache apache  2594 Jun 15 00:08 newItem.php
+-rw-r--r--  1 apache apache  1743 Jun 15 00:08 search_spot.php
+
+admin/credits/content:
+total 24
+-rw-r--r--  1 apache apache 8017 Jun 15 02:51 editCredits.php
+-rw-r--r--  1 apache apache 6179 Jun 15 00:20 index.php
+
+admin/functions:
+total 100
+-rw-r--r--  1 apache apache  2478 Apr 11  2006 check_access.php
+-rw-r--r--  1 apache apache  1070 Oct 20 14:01 check_login.php
+-rw-r--r--  1 apache apache 36228 Aug 15 01:35 global-bu.php
+-rw-r--r--  1 root   root   40330 Oct 25 17:43 global.php
+
+admin/images:
+total 564
+-rw-r--r--  1 apache apache   535 May 18 00:22 15.jpg
+-rw-r--r--  1 apache apache  2695 May 18 00:22 30.jpg
+-rw-r--r--  1 apache apache   712 May 18 00:22 31.jpg
+-rw-r--r--  1 apache apache   530 May 18 00:22 36.jpg
+-rw-r--r--  1 apache apache   573 May 18 00:22 37.jpg
+-rw-r--r--  1 apache apache  1019 May 18 00:22 42.jpg
+-rw-r--r--  1 apache apache  1098 May 18 00:22 48.jpg
+-rw-r--r--  1 apache apache  1165 May 18 00:22 53.jpg
+-rw-r--r--  1 apache apache   513 May 18 00:22 58.jpg
+-rw-r--r--  1 apache apache   552 May 18 00:22 59.jpg
+-rw-r--r--  1 apache apache   532 May 18 00:22 64.jpg
+-rw-r--r--  1 apache apache   677 May 18 00:22 70.jpg
+-rw-r--r--  1 apache apache   559 May 18 00:22 71.jpg
+-rw-r--r--  1 apache apache  1486 May 18 00:22 72.jpg
+-rw-r--r--  1 apache apache  1328 May 18 00:22 73.jpg
+-rw-r--r--  1 apache apache   619 May 18 00:22 74.jpg
+-rw-r--r--  1 apache apache   662 May 18 00:22 75.jpg
+-rw-r--r--  1 apache apache   142 May 13 15:43 alert.gif
+-rw-r--r--  1 apache apache   103 May 13 15:43 bg-header.gif
+-rw-r--r--  1 apache apache  1371 May 22 00:45 bg.png
+-rw-r--r--  1 root   root     447 Oct 24 00:14 btn-fade.png
+-rw-r--r--  1 apache apache  2422 May 29 15:47 cappertv_cmslogo.jpg
+-rw-r--r--  1 apache apache  1185 May 22 00:30 cappertv_logo.gif
+-rw-r--r--  1 apache apache   163 May 17 00:43 corner_botleft.gif
+-rw-r--r--  1 apache apache   162 May 17 00:43 corner_botright.gif
+-rw-r--r--  1 apache apache   215 Jun 11 01:57 corner_login_botleft.gif
+-rw-r--r--  1 apache apache   627 May 18 00:22 corner_login_botleft.jpg
+-rw-r--r--  1 apache apache   219 Jun 11 01:57 corner_login_botright.gif
+-rw-r--r--  1 apache apache   623 May 18 00:22 corner_login_botright.jpg
+-rw-r--r--  1 apache apache   203 Jun 11 01:57 corner_login_topleft.gif
+-rw-r--r--  1 apache apache   614 May 18 00:22 corner_login_topleft.jpg
+-rw-r--r--  1 apache apache   207 Jun 11 01:57 corner_login_topright.gif
+-rw-r--r--  1 apache apache   377 Jun 11 01:51 corner_login_topright.jpg
+-rw-r--r--  1 apache apache   162 May 17 00:43 corner_topleft.gif
+-rw-r--r--  1 apache apache   164 May 17 00:43 corner_topright.gif
+-rw-r--r--  1 apache apache   135 May 13 15:43 excel.gif
+-rw-r--r--  1 root   root    1455 Oct 25 18:12 flashplayer.jpg
+-rw-r--r--  1 apache apache 17090 May 13 15:43 hdr.png
+-rw-r--r--  1 apache apache   252 May 13 15:43 html.gif
+-rw-r--r--  1 root   root    1784 Oct 25 17:54 itunes.jpeg
+-rw-r--r--  1 root   root    2870 Oct 25 18:12 itunes.jpg
+-rw-r--r--  1 apache apache    43 May 13 15:43 line.gif
+-rw-r--r--  1 apache apache 40638 May 19 01:58 login_bg.jpg
+-rw-r--r--  1 apache apache  3401 May 19 01:58 login_bg_topright.jpg
+-rw-r--r--  1 apache apache 19973 May 18 00:22 login_cover.jpg
+-rw-r--r--  1 apache apache  1604 May 19 01:58 login.jpg
+-rw-r--r--  1 apache apache  2397 May 18 00:22 logo_footer.gif
+-rw-r--r--  1 apache apache  4928 May 18 00:22 logo.jpg
+-rw-r--r--  1 apache apache  1345 May 17 00:43 logout.gif
+-rw-r--r--  1 root   root    5915 Oct 24 01:47 metal.jpg
+drwxr-xr-x  3 apache apache  4096 May 13 15:44 navbar
+-rw-r--r--  1 apache apache  1900 May 22 00:30 poweredby_vp-bu.gif
+-rw-r--r--  1 root   root    1821 Oct 24 01:50 poweredby_vp.gif
+-rw-r--r--  1 root   root    1074 Oct 24 14:47 primaryThumb.jpg
+-rw-r--r--  1 apache apache  1790 Apr 11  2006 program_manager.gif
+-rw-r--r--  1 root   root    3440 Oct 25 18:05 quicktime2.jpg
+-rw-r--r--  1 root   root    4014 Oct 25 18:12 quicktime.jpg
+-rw-r--r--  1 apache apache    43 May 13 15:44 spacer.gif
+-rw-r--r--  1 apache apache   250 May 13 15:44 text.gif
+-rw-r--r--  1 root   root    3138 Oct 25 18:12 winmedia.jpg
+drwxr-xr-x  2 apache apache  4096 May 23 01:21 wysiwyg
+
+admin/images/navbar:
+total 48
+-rw-r--r--  1 apache apache  273 May 13 15:43 arw_dwn.gif
+-rw-r--r--  1 apache apache  274 May 13 15:43 arw.gif
+drwxr-xr-x  2 apache apache 4096 May 13 15:43 CVS
+-rw-r--r--  1 apache apache  170 May 13 15:43 dash.gif
+-rw-r--r--  1 apache apache  273 May 13 15:44 minus.gif
+-rw-r--r--  1 apache apache  274 May 13 15:44 plus.gif
+
+admin/images/navbar/CVS:
+total 24
+-rw-r--r--  1 apache apache 245 May 13 15:43 Entries
+-rw-r--r--  1 apache apache  26 May 13 15:43 Repository
+-rw-r--r--  1 apache apache  35 May 13 15:43 Root
+
+admin/images/wysiwyg:
+total 168
+-rw-r--r--  1 apache apache 148 May 23 01:21 ed_br.gif
+-rw-r--r--  1 apache apache  74 May 23 01:21 ed_format_bold.gif
+-rw-r--r--  1 apache apache  77 May 23 01:21 ed_format_italic.gif
+-rw-r--r--  1 apache apache  78 May 23 01:21 ed_format_strike.gif
+-rw-r--r--  1 apache apache  78 May 23 01:21 ed_format_sub.gif
+-rw-r--r--  1 apache apache  77 May 23 01:21 ed_format_sup.gif
+-rw-r--r--  1 apache apache  85 May 23 01:21 ed_format_underline.gif
+-rw-r--r--  1 apache apache 196 May 23 01:21 ed_image.gif
+-rw-r--r--  1 apache apache  97 May 23 01:21 ed_link.gif
+-rw-r--r--  1 apache apache  80 May 23 01:21 ed_list_bullet.gif
+-rw-r--r--  1 apache apache  82 May 23 01:21 ed_list_num.gif
+-rw-r--r--  1 apache apache  62 May 23 01:21 ed_mdash.gif
+-rw-r--r--  1 apache apache  77 May 23 01:21 ed_paragraph.gif
+-rw-r--r--  1 apache apache 170 May 23 01:21 ed_related.gif
+-rw-r--r--  1 apache apache 164 May 23 01:21 ed_two_image.gif
+-rw-r--r--  1 apache apache 203 May 23 01:21 ed_video.gif
+-rw-r--r--  1 apache apache  70 May 23 01:21 help_text.gif
+-rw-r--r--  1 apache apache 913 May 23 01:21 img_selected.gif
+-rw-r--r--  1 apache apache 121 May 23 01:21 insert_table.gif
+-rw-r--r--  1 apache apache 204 May 23 01:21 pdf.gif
+-rw-r--r--  1 apache apache 208 May 23 01:21 text.gif
+
+admin/includes:
+total 104
+-rw-r--r--  1 apache apache  113 Apr 11  2006 footer.php
+-rw-r--r--  1 apache apache 1464 Oct 20 15:06 header.php
+-rw-r--r--  1 apache apache 6497 Apr 11  2006 javascripts.php
+-rw-r--r--  1 apache apache 9700 Oct 25 17:21 leftnav.php
+-rw-r--r--  1 apache apache 3336 Oct 26 10:23 login_form.php
+-rw-r--r--  1 apache apache  586 Apr 11  2006 login_status.php
+-rw-r--r--  1 apache apache   48 Apr 11  2006 page_head.php
+-rw-r--r--  1 apache apache 7941 May 25 06:30 styles-old.php
+-rw-r--r--  1 apache apache 9302 Oct 24 01:43 styles.php
+-rw-r--r--  1 apache apache 2791 Jun  2 12:25 windowblinds.js
+
+admin/internal:
+total 40
+drwxr-xr-x  4 apache apache 4096 Aug  6 23:40 counts
+drwxr-xr-x  4 apache apache 4096 Aug  6 23:40 custom
+drwxr-xr-x  4 apache apache 4096 Aug  6 23:41 reports
+drwxr-xr-x  4 apache apache 4096 Aug  6 23:41 special
+drwxr-xr-x  5 apache apache 4096 Aug  6 23:40 tools
+
+admin/internal/counts:
+total 72
+drwxr-xr-x  3 apache apache  4096 Aug  6 23:40 content
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:40 CVS
+-rw-r--r--  1 apache apache 41030 Apr 11  2006 get_count.php
+-rw-r--r--  1 apache apache   247 Apr 11  2006 index.php
+
+admin/internal/counts/content:
+total 28
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:40 CVS
+-rw-r--r--  1 apache apache 13403 Apr 11  2006 index.php
+
+admin/internal/counts/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 36 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/internal/counts/CVS:
+total 32
+-rw-r--r--  1 apache apache 98 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 16 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache 28 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/internal/custom:
+total 48
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:40 content
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:40 CVS
+-rw-r--r--  1 apache apache 1551 Apr 11  2006 display.php
+-rw-r--r--  1 apache apache 2082 Apr 11  2006 get_report.php
+-rw-r--r--  1 apache apache  247 Apr 11  2006 index.php
+-rw-r--r--  1 apache apache 2787 Apr 11  2006 reports.inc
+
+admin/internal/custom/content:
+total 16
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:40 CVS
+-rw-r--r--  1 apache apache  942 Apr 11  2006 index.php
+
+admin/internal/custom/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 36 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/internal/custom/CVS:
+total 32
+-rw-r--r--  1 apache apache 195 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  16 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache  28 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/internal/reports:
+total 420
+-rw-r--r--  1 apache apache 1207 Apr 11  2006 adage_agencies.php
+-rw-r--r--  1 apache apache 1693 Apr 11  2006 adage_markets.php
+-rw-r--r--  1 apache apache 1673 Apr 11  2006 adage_media.php
+-rw-r--r--  1 apache apache 1207 Apr 11  2006 adage_other.php
+-rw-r--r--  1 apache apache 1139 Apr 11  2006 adage_paypoints.php
+-rw-r--r--  1 apache apache 1919 Apr 11  2006 adage_paypoints_purchased.php
+-rw-r--r--  1 apache apache 1662 Apr 11  2006 adage_paypoints_spent.php
+-rw-r--r--  1 apache apache 1087 Apr 11  2006 adage_sinceLockDown.php
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:41 content
+-rw-r--r--  1 apache apache 1499 Apr 11  2006 creativity_subs.php
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:41 CVS
+-rw-r--r--  1 apache apache 4175 Apr 11  2006 de_agencies.php
+-rw-r--r--  1 apache apache 3330 Apr 11  2006 de_comps.php
+-rw-r--r--  1 apache apache    4 Aug  6 23:39 de_comps.php.attachment00
+-rw-r--r--  1 apache apache 1509 Apr 11  2006 de_current.php
+-rw-r--r--  1 apache apache 4221 Apr 11  2006 de_keycode.php
+-rw-r--r--  1 apache apache 4419 Apr 11  2006 de_markets.php
+-rw-r--r--  1 apache apache 4479 Apr 11  2006 de_media.php
+-rw-r--r--  1 apache apache    4 Aug  6 23:39 de_media.php.attachment00
+-rw-r--r--  1 apache apache 4165 Apr 11  2006 de_orders.php
+-rw-r--r--  1 apache apache    4 Aug  6 23:39 de_orders.php.attachment00
+-rw-r--r--  1 apache apache 1158 Apr 11  2006 display.php
+-rw-r--r--  1 apache apache    5 Aug  6 23:39 display.php.attachment00
+-rw-r--r--  1 apache apache 1852 Apr 11  2006 encyclopedia_paypoints_spent.php
+-rw-r--r--  1 apache apache  135 Apr 11  2006 __excel.gif
+-rw-r--r--  1 apache apache  296 May 24 12:40 excel.gif
+-rw-r--r--  1 apache apache  415 May 22 14:46 flv.gif
+-rw-r--r--  1 apache apache 2825 May 24 12:52 getRawLog.php
+-rw-r--r--  1 apache apache 1069 Aug  6 23:39 getRawLog.php.attachment00
+-rw-r--r--  1 apache apache   41 May 17 09:46 green_bar.gif
+-rw-r--r--  1 apache apache  252 Apr 11  2006 html.gif
+-rw-r--r--  1 apache apache  247 Apr 11  2006 index.php
+-rw-r--r--  1 apache apache 3362 Apr 11  2006 mandv_agencies.php
+-rw-r--r--  1 apache apache 3035 Apr 11  2006 mandv_current.php
+-rw-r--r--  1 apache apache    4 Aug  6 23:39 mandv_current.php.attachment00
+-rw-r--r--  1 apache apache 4217 Apr 11  2006 mandv_markets.php
+-rw-r--r--  1 apache apache    4 Aug  6 23:39 mandv_markets.php.attachment00
+-rw-r--r--  1 apache apache 1252 Apr 11  2006 mv_agency.php
+-rw-r--r--  1 apache apache 1738 Apr 11  2006 mv_markets.php
+-rw-r--r--  1 apache apache 2591 Apr 11  2006 printcritic_subscribers.php
+-rw-r--r--  1 apache apache    4 Aug  6 23:39 printcritic_subscribers.php.attachment00
+-rw-r--r--  1 apache apache 2591 Apr 11  2006 printcritic_unsubscribers.php
+-rw-r--r--  1 apache apache    4 Aug  6 23:39 printcritic_unsubscribers.php.attachment00
+-rw-r--r--  1 apache apache   41 May 17 09:47 red_bar.gif
+-rw-r--r--  1 apache apache 4791 Apr 11  2006 reports.inc
+-rw-r--r--  1 apache apache 1308 Apr 11  2006 servicecharges.php
+-rw-r--r--  1 apache apache  457 May 22 14:48 statistics.gif
+-rw-r--r--  1 apache apache  250 Apr 11  2006 text.gif
+-rw-r--r--  1 apache apache  263 May 16 10:43 tracking_ads.php
+
+admin/internal/reports/content:
+total 56
+drwxr-xr-x  2 apache apache  4096 Aug  6 23:41 CVS
+-rw-r--r--  1 apache apache 23960 Apr 11  2006 index.php
+-rw-r--r--  1 apache apache 14199 Jul 10 14:07 tracking_ads.php
+
+admin/internal/reports/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 37 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/internal/reports/CVS:
+total 32
+-rw-r--r--  1 apache apache 1673 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache   16 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache   29 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache   35 Apr 11  2006 Root
+
+admin/internal/special:
+total 260
+-rw-r--r--  1 apache apache 1487 Apr 11  2006 adage_daily_1.php
+-rw-r--r--  1 apache apache 1493 Apr 11  2006 adage_daily_2.php
+-rw-r--r--  1 apache apache 1493 Apr 11  2006 adage_daily_3.php
+-rw-r--r--  1 apache apache 1492 Apr 11  2006 adage_daily_4.php
+-rw-r--r--  1 apache apache 1516 Apr 11  2006 adage_demographics10.php
+-rw-r--r--  1 apache apache 1511 Apr 11  2006 adage_demographics1.php
+-rw-r--r--  1 apache apache 1516 Apr 11  2006 adage_demographics2.php
+-rw-r--r--  1 apache apache 1516 Apr 11  2006 adage_demographics3.php
+-rw-r--r--  1 apache apache 1517 Apr 11  2006 adage_demographics4.php
+-rw-r--r--  1 apache apache 1518 Apr 11  2006 adage_demographics5.php
+-rw-r--r--  1 apache apache 1518 Apr 11  2006 adage_demographics6.php
+-rw-r--r--  1 apache apache 1517 Apr 11  2006 adage_demographics7.php
+-rw-r--r--  1 apache apache 1517 Apr 11  2006 adage_demographics8.php
+-rw-r--r--  1 apache apache 1516 Apr 11  2006 adage_demographics9.php
+-rw-r--r--  1 apache apache 1485 Apr 11  2006 adage_hispanic.php
+-rw-r--r--  1 apache apache 1495 Apr 11  2006 adage_myemail_1.php
+-rw-r--r--  1 apache apache 1501 Apr 11  2006 adage_myemail_2.php
+-rw-r--r--  1 apache apache 1500 Apr 11  2006 adage_myemail_3.php
+-rw-r--r--  1 apache apache 1501 Apr 11  2006 adage_myemail_4.php
+-rw-r--r--  1 apache apache 1503 Apr 11  2006 adage_myemail_5.php
+-rw-r--r--  1 apache apache 1501 Apr 11  2006 adage_myemail_6.php
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:41 content
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:41 CVS
+-rw-r--r--  1 apache apache 1157 Apr 11  2006 display.php
+-rw-r--r--  1 apache apache  247 Apr 11  2006 index.php
+-rw-r--r--  1 apache apache 3246 Apr 11  2006 mandv_current.php
+-rw-r--r--  1 apache apache    7 Aug  6 23:39 mandv_current.php.attachment00
+-rw-r--r--  1 apache apache 1481 Apr 11  2006 mv_teaser_1.php
+-rw-r--r--  1 apache apache 1487 Apr 11  2006 mv_teaser_2.php
+-rw-r--r--  1 apache apache 1488 Apr 11  2006 mv_teaser_3.php
+-rw-r--r--  1 apache apache 2717 Apr 11  2006 printcritic_subscribers.php
+-rw-r--r--  1 apache apache 4791 Apr 11  2006 reports.inc
+
+admin/internal/special/content:
+total 20
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:41 CVS
+-rw-r--r--  1 apache apache 7407 Apr 11  2006 index.php
+
+admin/internal/special/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 37 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/internal/special/CVS:
+total 32
+-rw-r--r--  1 apache apache 1626 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache   16 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache   29 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache   35 Apr 11  2006 Root
+
+admin/internal/tools:
+total 24
+drwxr-xr-x  4 apache apache 4096 Aug  6 23:40 cache-puncher
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:40 CVS
+drwxr-xr-x  4 apache apache 4096 Aug  6 23:40 word-cleaner
+
+admin/internal/tools/cache-puncher:
+total 32
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:40 content
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:40 CVS
+-rw-r--r--  1 apache apache  256 Apr 11  2006 index.php
+-rw-r--r--  1 apache apache 1198 Apr 11  2006 save.php
+
+admin/internal/tools/cache-puncher/content:
+total 16
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:40 CVS
+-rw-r--r--  1 apache apache  663 Apr 11  2006 index.php
+
+admin/internal/tools/cache-puncher/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 49 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/internal/tools/cache-puncher/CVS:
+total 32
+-rw-r--r--  1 apache apache 93 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 16 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache 41 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/internal/tools/CVS:
+total 32
+-rw-r--r--  1 apache apache  2 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 43 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache 27 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/internal/tools/word-cleaner:
+total 24
+drwxr-xr-x  3 apache apache 4096 Aug  6 23:40 content
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:40 CVS
+-rw-r--r--  1 apache apache  256 Apr 11  2006 index.php
+
+admin/internal/tools/word-cleaner/content:
+total 16
+drwxr-xr-x  2 apache apache 4096 Aug  6 23:40 CVS
+-rw-r--r--  1 apache apache  688 Apr 11  2006 index.php
+
+admin/internal/tools/word-cleaner/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/internal/tools/word-cleaner/CVS:
+total 32
+-rw-r--r--  1 apache apache 48 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache 16 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache 40 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache 35 Apr 11  2006 Root
+
+admin/media:
+total 8
+drwxr-xr-x  3 apache apache 4096 Jul  8 02:52 manager
+
+admin/media/manager:
+total 64
+-rw-r--r--  1 apache apache 1246 May 10 06:32 _config.inc.php
+drwxr-xr-x  2 apache apache 4096 Jul  8 02:52 content
+-rw-r--r--  1 apache apache 1477 Apr 11  2006 delete.php
+-rw-r--r--  1 apache apache  262 Apr 11  2006 index.php
+-rw-r--r--  1 apache apache 6880 Jun 13 22:03 save_bu.php
+-rw-r--r--  1 apache apache 7010 Jul  7 06:32 save.php
+-rw-r--r--  1 apache apache  263 Apr 11  2006 upload.php
+
+admin/media/manager/content:
+total 40
+-rw-r--r--  1 apache apache 9748 May 26 02:08 index_bu.php
+-rw-r--r--  1 apache apache 9919 Oct 20 14:35 index.php
+-rw-r--r--  1 apache apache 2748 Apr 11  2006 upload.php
+
+admin/phpMyAdmin-2.8.0.4:
+total 1964
+-rw-r--r--   1 root root  10892 May 15 12:32 browse_foreigners.php
+-rw-r--r--   1 root root    716 May 15 12:32 calendar.php
+-rw-r--r--   1 root root 431505 May 15 12:32 ChangeLog
+-rw-r--r--   1 root root    236 May 15 12:32 changelog.php
+-rw-r--r--   1 root root    449 May 15 12:32 chk_rel.php
+-rw-r--r--   1 root root  37923 Aug  6 16:19 config.inc.php
+-rw-r--r--   1 root root    173 May 15 12:32 CREDITS
+drwxr-xr-x   2 root root   4096 Oct 24 16:34 css
+-rw-r--r--   1 root root   1189 May 15 12:32 db_create.php
+-rw-r--r--   1 root root   9456 May 15 12:32 db_datadict.php
+-rw-r--r--   1 root root   2304 May 15 12:32 db_details_export.php
+-rw-r--r--   1 root root  13123 May 15 12:32 db_details_importdocsql.php
+-rw-r--r--   1 root root    791 May 15 12:32 db_details.php
+-rw-r--r--   1 root root  36441 May 15 12:32 db_details_qbe.php
+-rw-r--r--   1 root root  20962 May 15 12:32 db_details_structure.php
+-rw-r--r--   1 root root    460 May 15 12:32 db_import.php
+-rw-r--r--   1 root root  15686 May 15 12:32 db_operations.php
+-rw-r--r--   1 root root  10188 May 15 12:32 db_printview.php
+-rw-r--r--   1 root root  11949 May 15 12:32 db_search.php
+-rw-r--r--   1 root root   2817 May 15 12:32 docs.css
+-rw-r--r--   1 root root 192655 May 15 12:32 Documentation.html
+-rw-r--r--   1 root root      0 May 15 12:32 Documentation.txt
+-rw-r--r--   1 root root   1966 May 15 12:32 error.php
+-rw-r--r--   1 root root  23397 May 15 12:32 export.php
+-rw-r--r--   1 root root  18902 May 15 12:32 favicon.ico
+-rw-r--r--   1 root root  13375 May 15 12:32 import.php
+-rw-r--r--   1 root root   5761 May 15 12:32 index.php
+-rw-r--r--   1 root root    183 May 15 12:32 INSTALL
+drwxr-xr-x   2 root root   4096 Oct 24 16:29 js
+drwxr-xr-x   2 root root  12288 Oct 24 16:34 lang
+-rw-r--r--   1 root root  20409 May 15 12:35 left.php
+drwxr-xr-x  10 root root   4096 Oct 24 16:29 libraries
+-rw-r--r--   1 root root  18011 May 15 12:37 LICENSE
+-rw-r--r--   1 root root    315 May 15 12:37 license.php
+-rw-r--r--   1 root root  13891 May 15 12:37 main.php
+-rw-r--r--   1 root root  20480 May 15 12:37 pdf_pages.php
+-rw-r--r--   1 root root  53477 May 15 12:37 pdf_schema.php
+-rw-r--r--   1 root root    345 May 15 12:37 phpinfo.php
+-rw-r--r--   1 root root  13896 May 15 12:37 querywindow.php
+-rw-r--r--   1 root root   2642 May 15 12:37 README
+-rw-r--r--   1 root root    313 May 15 12:37 readme.php
+-rw-r--r--   1 root root     29 May 15 12:37 RELEASE-DATE-2.8.0.4
+drwxr-xr-x   2 root root   4096 Oct 24 16:28 scripts
+-rw-r--r--   1 root root   4054 May 15 12:37 server_binlog.php
+-rw-r--r--   1 root root   2778 May 15 12:37 server_collations.php
+-rw-r--r--   1 root root  13938 May 15 12:37 server_databases.php
+-rw-r--r--   1 root root   8290 May 15 12:37 server_engines.php
+-rw-r--r--   1 root root   1778 May 15 12:37 server_export.php
+-rw-r--r--   1 root root    456 May 15 12:37 server_import.php
+-rw-r--r--   1 root root 110413 May 15 12:37 server_privileges.php
+-rw-r--r--   1 root root   2887 May 15 12:37 server_processlist.php
+-rw-r--r--   1 root root    547 May 15 12:37 server_sql.php
+-rw-r--r--   1 root root  21238 May 15 12:37 server_status.php
+-rw-r--r--   1 root root   2450 May 15 12:37 server_variables.php
+-rw-r--r--   1 root root  39125 May 15 12:37 sql.php
+-rw-r--r--   1 root root   9115 May 15 12:37 tbl_addfield.php
+-rw-r--r--   1 root root   9471 May 15 12:37 tbl_alter.php
+-rw-r--r--   1 root root  45778 May 15 12:37 tbl_change.php
+-rw-r--r--   1 root root   8674 May 15 12:37 tbl_create.php
+-rw-r--r--   1 root root    648 May 15 12:37 tbl_import.php
+-rw-r--r--   1 root root  16644 May 15 12:37 tbl_indexes.php
+-rw-r--r--   1 root root   2106 May 15 12:37 tbl_move_copy.php
+-rw-r--r--   1 root root  20000 May 15 12:37 tbl_printview.php
+-rw-r--r--   1 root root   3930 May 15 12:37 tbl_properties_export.php
+-rw-r--r--   1 root root  19552 May 15 12:37 tbl_properties_operations.php
+-rw-r--r--   1 root root    820 May 15 12:37 tbl_properties.php
+-rw-r--r--   1 root root  33571 May 15 12:37 tbl_properties_structure.php
+-rw-r--r--   1 root root  23555 May 15 12:37 tbl_relation.php
+-rw-r--r--   1 root root  11337 May 15 12:37 tbl_replace.php
+-rw-r--r--   1 root root   4664 May 15 12:37 tbl_row_action.php
+-rw-r--r--   1 root root  16823 May 15 12:37 tbl_select.php
+drwxr-xr-x   2 root root   4096 Oct 24 16:28 test
+drwxr-xr-x   4 root root   4096 Oct 24 16:34 themes
+-rw-r--r--   1 root root    974 May 15 12:38 themes.php
+-rw-r--r--   1 root root    239 May 15 12:38 TODO
+-rw-r--r--   1 root root   1752 May 15 12:38 transformation_overview.php
+-rw-r--r--   1 root root   4075 May 15 12:38 transformation_wrapper.php
+-rw-r--r--   1 root root   7822 May 15 12:38 translators.html
+-rw-r--r--   1 root root   5717 May 15 12:38 user_password.php
+
+admin/phpMyAdmin-2.8.0.4/css:
+total 28
+-rw-r--r--  1 root root 13363 May 15 12:32 phpmyadmin.css.php
+-rw-r--r--  1 root root   204 May 15 12:32 print.css
+
+admin/phpMyAdmin-2.8.0.4/js:
+total 128
+-rw-r--r--  1 root root  3863 May 15 12:32 dom-drag.js
+-rw-r--r--  1 root root 40956 May 15 12:32 functions.js
+-rw-r--r--  1 root root  2480 May 15 12:32 indexes.js
+-rw-r--r--  1 root root  1687 May 15 12:32 keyhandler.js
+-rw-r--r--  1 root root  7386 May 15 12:32 querywindow.js
+-rw-r--r--  1 root root  2907 May 15 12:32 server_privileges.js
+-rw-r--r--  1 root root 10982 May 15 12:32 tbl_change.js
+-rw-r--r--  1 root root  5168 May 15 12:32 tooltip.js
+-rw-r--r--  1 root root  5739 May 15 12:32 user_password.js
+
+admin/phpMyAdmin-2.8.0.4/lang:
+total 9048
+-rwxr-xr-x  1 root root   770 May 15 12:32 add_message_file.sh
+-rwxr-xr-x  1 root root   767 May 15 12:32 add_message.sh
+-rw-r--r--  1 root root 71189 May 15 12:33 afrikaans-iso-8859-1.inc.php
+-rw-r--r--  1 root root 71203 May 15 12:33 afrikaans-utf-8.inc.php
+-rw-r--r--  1 root root 68254 May 15 12:33 albanian-iso-8859-1.inc.php
+-rw-r--r--  1 root root 69491 May 15 12:33 albanian-utf-8.inc.php
+-rw-r--r--  1 root root 77419 May 15 12:33 arabic-utf-8.inc.php
+-rw-r--r--  1 root root 64748 May 15 12:33 arabic-windows-1256.inc.php
+-rw-r--r--  1 root root 68507 May 15 12:33 azerbaijani-iso-8859-9.inc.php
+-rw-r--r--  1 root root 69480 May 15 12:33 azerbaijani-utf-8.inc.php
+-rw-r--r--  1 root root 69340 May 15 12:33 basque-iso-8859-1.inc.php
+-rw-r--r--  1 root root 69356 May 15 12:33 basque-utf-8.inc.php
+-rw-r--r--  1 root root 96991 May 15 12:33 belarusian_cyrillic-utf-8.inc.php
+-rw-r--r--  1 root root 65263 May 15 12:33 belarusian_cyrillic-windows-1251.inc.php
+-rw-r--r--  1 root root 68807 May 15 12:33 belarusian_latin-utf-8.inc.php
+-rw-r--r--  1 root root 67325 May 15 12:33 bosnian-utf-8.inc.php
+-rw-r--r--  1 root root 66935 May 15 12:33 bosnian-windows-1250.inc.php
+-rw-r--r--  1 root root 67928 May 15 12:33 brazilian_portuguese-iso-8859-1.inc.php
+-rw-r--r--  1 root root 68768 May 15 12:33 brazilian_portuguese-utf-8.inc.php
+-rw-r--r--  1 root root 67843 May 15 12:33 bulgarian-koi8-r.inc.php
+-rw-r--r--  1 root root 87045 May 15 12:33 bulgarian-utf-8.inc.php
+-rw-r--r--  1 root root 67855 May 15 12:33 bulgarian-windows-1251.inc.php
+-rw-r--r--  1 root root 65928 May 15 12:33 catalan-iso-8859-1.inc.php
+-rw-r--r--  1 root root 66559 May 15 12:33 catalan-utf-8.inc.php
+-rwxr-xr-x  1 root root  1571 May 15 12:33 check_lang.sh
+-rw-r--r--  1 root root 58023 May 15 12:33 chinese_simplified-gb2312.inc.php
+-rw-r--r--  1 root root 63651 May 15 12:33 chinese_simplified-utf-8.inc.php
+-rw-r--r--  1 root root 54681 May 15 12:33 chinese_traditional-big5.inc.php
+-rw-r--r--  1 root root 61185 May 15 12:33 chinese_traditional-utf-8.inc.php
+-rw-r--r--  1 root root 71697 May 15 12:33 croatian-iso-8859-2.inc.php
+-rw-r--r--  1 root root 71805 May 15 12:33 croatian-utf-8.inc.php
+-rw-r--r--  1 root root 71701 May 15 12:33 croatian-windows-1250.inc.php
+-rw-r--r--  1 root root 61547 May 15 12:33 czech-iso-8859-2.inc.php
+-rw-r--r--  1 root root 65434 May 15 12:33 czech-utf-8.inc.php
+-rw-r--r--  1 root root 61551 May 15 12:33 czech-windows-1250.inc.php
+-rw-r--r--  1 root root 63303 May 15 12:33 danish-iso-8859-1.inc.php
+-rw-r--r--  1 root root 64132 May 15 12:33 danish-utf-8.inc.php
+-rw-r--r--  1 root root 67924 May 15 12:33 dutch-iso-8859-15.inc.php
+-rw-r--r--  1 root root 67923 May 15 12:33 dutch-iso-8859-1.inc.php
+-rw-r--r--  1 root root 67951 May 15 12:33 dutch-utf-8.inc.php
+-rw-r--r--  1 root root 61183 May 15 12:33 english-iso-8859-15.inc.php
+-rw-r--r--  1 root root 61182 May 15 12:33 english-iso-8859-1.inc.php
+-rw-r--r--  1 root root 61196 May 15 12:33 english-utf-8.inc.php
+-rw-r--r--  1 root root 60775 May 15 12:33 estonian-iso-8859-1.inc.php
+-rw-r--r--  1 root root 61648 May 15 12:33 estonian-utf-8.inc.php
+-rw-r--r--  1 root root 65954 May 15 12:33 finnish-iso-8859-15.inc.php
+-rw-r--r--  1 root root 65953 May 15 12:33 finnish-iso-8859-1.inc.php
+-rw-r--r--  1 root root 68008 May 15 12:33 finnish-utf-8.inc.php
+-rw-r--r--  1 root root 67455 May 15 12:33 french-iso-8859-15.inc.php
+-rw-r--r--  1 root root 67454 May 15 12:33 french-iso-8859-1.inc.php
+-rw-r--r--  1 root root 68731 May 15 12:33 french-utf-8.inc.php
+-rw-r--r--  1 root root 66742 May 15 12:33 galician-iso-8859-1.inc.php
+-rw-r--r--  1 root root 67745 May 15 12:33 galician-utf-8.inc.php
+-rw-r--r--  1 root root 82545 May 15 12:33 georgian-utf-8.inc.php
+-rw-r--r--  1 root root 72450 May 15 12:33 german-iso-8859-15.inc.php
+-rw-r--r--  1 root root 72449 May 15 12:33 german-iso-8859-1.inc.php
+-rw-r--r--  1 root root 72980 May 15 12:33 german-utf-8.inc.php
+-rw-r--r--  1 root root 70349 May 15 12:34 greek-iso-8859-7.inc.php
+-rw-r--r--  1 root root 86977 May 15 12:34 greek-utf-8.inc.php
+-rw-r--r--  1 root root 63810 May 15 12:34 hebrew-iso-8859-8-i.inc.php
+-rw-r--r--  1 root root 72274 May 15 12:34 hebrew-utf-8.inc.php
+-rw-r--r--  1 root root 78121 May 15 12:34 hindi-utf-8.inc.php
+-rw-r--r--  1 root root 66103 May 15 12:34 hungarian-iso-8859-2.inc.php
+-rw-r--r--  1 root root 68427 May 15 12:34 hungarian-utf-8.inc.php
+-rw-r--r--  1 root root 68055 May 15 12:34 indonesian-iso-8859-1.inc.php
+-rw-r--r--  1 root root 68069 May 15 12:34 indonesian-utf-8.inc.php
+-rw-r--r--  1 root root 67367 May 15 12:34 italian-iso-8859-15.inc.php
+-rw-r--r--  1 root root 67366 May 15 12:34 italian-iso-8859-1.inc.php
+-rw-r--r--  1 root root 67576 May 15 12:34 italian-utf-8.inc.php
+-rw-r--r--  1 root root 61213 May 15 12:34 japanese-euc.inc.php
+-rw-r--r--  1 root root 61221 May 15 12:34 japanese-sjis.inc.php
+-rw-r--r--  1 root root 77082 May 15 12:34 japanese-utf-8.inc.php
+-rw-r--r--  1 root root 67996 May 15 12:34 korean-euc-kr.inc.php
+-rw-r--r--  1 root root 71562 May 15 12:34 korean-utf-8.inc.php
+-rw-r--r--  1 root root 68032 May 15 12:34 latvian-utf-8.inc.php
+-rw-r--r--  1 root root 66308 May 15 12:34 latvian-windows-1257.inc.php
+-rw-r--r--  1 root root 67989 May 15 12:34 lithuanian-utf-8.inc.php
+-rw-r--r--  1 root root 66563 May 15 12:34 lithuanian-windows-1257.inc.php
+-rw-r--r--  1 root root 70935 May 15 12:34 malay-iso-8859-1.inc.php
+-rw-r--r--  1 root root 70949 May 15 12:34 malay-utf-8.inc.php
+-rw-r--r--  1 root root 78616 May 15 12:34 mongolian-utf-8.inc.php
+-rw-r--r--  1 root root 62378 May 15 12:34 norwegian-iso-8859-1.inc.php
+-rw-r--r--  1 root root 62987 May 15 12:34 norwegian-utf-8.inc.php
+-rw-r--r--  1 root root 75019 May 15 12:34 persian-utf-8.inc.php
+-rw-r--r--  1 root root 70711 May 15 12:34 persian-windows-1256.inc.php
+-rw-r--r--  1 root root 63986 May 15 12:34 polish-iso-8859-2.inc.php
+-rw-r--r--  1 root root 66058 May 15 12:34 polish-utf-8.inc.php
+-rw-r--r--  1 root root 63989 May 15 12:34 polish-windows-1250.inc.php
+-rw-r--r--  1 root root 69295 May 15 12:34 portuguese-iso-8859-15.inc.php
+-rw-r--r--  1 root root 69294 May 15 12:34 portuguese-iso-8859-1.inc.php
+-rw-r--r--  1 root root 69813 May 15 12:34 portuguese-utf-8.inc.php
+-rwxr-xr-x  1 root root   545 May 15 12:34 remove_message.sh
+-rw-r--r--  1 root root 66835 May 15 12:34 romanian-iso-8859-1.inc.php
+-rw-r--r--  1 root root 66849 May 15 12:34 romanian-utf-8.inc.php
+-rw-r--r--  1 root root 67161 May 15 12:34 russian-cp-866.inc.php
+-rw-r--r--  1 root root 66661 May 15 12:35 russian-koi8-r.inc.php
+-rw-r--r--  1 root root 82578 May 15 12:35 russian-utf-8.inc.php
+-rw-r--r--  1 root root 66673 May 15 12:35 russian-windows-1251.inc.php
+-rw-r--r--  1 root root 82824 May 15 12:35 serbian_cyrillic-utf-8.inc.php
+-rw-r--r--  1 root root 64588 May 15 12:35 serbian_cyrillic-windows-1251.inc.php
+-rw-r--r--  1 root root 65368 May 15 12:35 serbian_latin-utf-8.inc.php
+-rw-r--r--  1 root root 64860 May 15 12:35 serbian_latin-windows-1250.inc.php
+-rw-r--r--  1 root root 63493 May 15 12:35 slovak-iso-8859-2.inc.php
+-rw-r--r--  1 root root 67096 May 15 12:35 slovak-utf-8.inc.php
+-rw-r--r--  1 root root 63497 May 15 12:35 slovak-windows-1250.inc.php
+-rw-r--r--  1 root root 66886 May 15 12:35 slovenian-iso-8859-2.inc.php
+-rw-r--r--  1 root root 67339 May 15 12:35 slovenian-utf-8.inc.php
+-rw-r--r--  1 root root 66890 May 15 12:35 slovenian-windows-1250.inc.php
+-rwxr-xr-x  1 root root  2017 May 15 12:35 sort_lang.sh
+-rw-r--r--  1 root root 69521 May 15 12:35 spanish-iso-8859-15.inc.php
+-rw-r--r--  1 root root 69520 May 15 12:35 spanish-iso-8859-1.inc.php
+-rw-r--r--  1 root root 70376 May 15 12:35 spanish-utf-8.inc.php
+-rw-r--r--  1 root root 62477 May 15 12:35 swedish-iso-8859-1.inc.php
+-rw-r--r--  1 root root 63907 May 15 12:35 swedish-utf-8.inc.php
+-rwxr-xr-x  1 root root  7896 May 15 12:35 sync_lang.sh
+-rw-r--r--  1 root root 63590 May 15 12:35 tatarish-iso-8859-9.inc.php
+-rw-r--r--  1 root root 65741 May 15 12:35 tatarish-utf-8.inc.php
+-rw-r--r--  1 root root 66155 May 15 12:35 thai-tis-620.inc.php
+-rw-r--r--  1 root root 89791 May 15 12:35 thai-utf-8.inc.php
+-rwxr-xr-x  1 root root   904 May 15 12:35 translatecount.sh
+-rw-r--r--  1 root root 66633 May 15 12:35 turkish-iso-8859-9.inc.php
+-rw-r--r--  1 root root 68813 May 15 12:35 turkish-utf-8.inc.php
+-rw-r--r--  1 root root 81768 May 15 12:35 ukrainian-utf-8.inc.php
+-rw-r--r--  1 root root 67480 May 15 12:35 ukrainian-windows-1251.inc.php
+
+admin/phpMyAdmin-2.8.0.4/libraries:
+total 1468
+drwxr-xr-x  2 root root   4096 Oct 24 16:34 auth
+-rw-r--r--  1 root root  27577 May 15 12:35 blowfish.php
+-rw-r--r--  1 root root   6659 May 15 12:35 bookmark.lib.php
+-rw-r--r--  1 root root  10268 May 15 12:35 charset_conversion.lib.php
+-rw-r--r--  1 root root   8714 May 15 12:35 check_user_privileges.lib.php
+-rw-r--r--  1 root root 120881 May 15 12:35 common.lib.php
+-rw-r--r--  1 root root  25356 May 15 12:35 Config.class.php
+-rw-r--r--  1 root root  37912 May 15 12:35 config.default.php
+-rw-r--r--  1 root root  37951 May 15 12:39 config.inc.php
+-rw-r--r--  1 root root  40240 May 15 12:35 database_interface.lib.php
+-rw-r--r--  1 root root   2246 May 15 12:35 db_config.lib.php
+-rw-r--r--  1 root root   1855 May 15 12:35 db_details_common.inc.php
+-rw-r--r--  1 root root   5420 May 15 12:35 db_details_db_info.inc.php
+-rw-r--r--  1 root root   3793 May 15 12:35 db_details_links.inc.php
+drwxr-xr-x  2 root root   4096 Oct 24 16:35 dbg
+drwxr-xr-x  2 root root   4096 Oct 24 16:34 dbi
+-rw-r--r--  1 root root   2193 May 15 12:36 db_table_exists.lib.php
+-rw-r--r--  1 root root   1677 May 15 12:36 display_create_database.lib.php
+-rw-r--r--  1 root root   4550 May 15 12:36 display_create_table.lib.php
+-rw-r--r--  1 root root  39094 May 15 12:36 display_export.lib.php
+-rw-r--r--  1 root root   6693 May 15 12:36 display_import.lib.php
+-rw-r--r--  1 root root   3465 May 15 12:36 display_select_lang.lib.php
+-rw-r--r--  1 root root  97758 May 15 12:36 display_tbl.lib.php
+-rw-r--r--  1 root root   2321 May 15 12:36 display_tbl_links.lib.php
+drwxr-xr-x  2 root root   4096 Oct 24 16:34 engines
+drwxr-xr-x  2 root root   4096 Oct 24 16:34 export
+-rw-r--r--  1 root root   2400 May 15 12:36 file_listing.php
+-rw-r--r--  1 root root    284 May 15 12:36 footer_custom.inc.php
+-rw-r--r--  1 root root   4415 May 15 12:36 footer.inc.php
+drwxr-xr-x  3 root root   4096 Oct 24 16:35 fpdf
+-rw-r--r--  1 root root   3318 May 15 12:36 get_foreign.lib.php
+-rw-r--r--  1 root root   3786 May 15 12:36 grab_globals.lib.php
+-rw-r--r--  1 root root    284 May 15 12:36 header_custom.inc.php
+-rw-r--r--  1 root root    720 May 15 12:36 header_http.inc.php
+-rw-r--r--  1 root root  10214 May 15 12:36 header.inc.php
+-rw-r--r--  1 root root   1973 May 15 12:36 header_meta_style.inc.php
+-rw-r--r--  1 root root   2649 May 15 12:36 header_printview.inc.php
+drwxr-xr-x  2 root root   4096 Oct 24 16:35 import
+-rw-r--r--  1 root root   9337 May 15 12:36 import.lib.php
+-rw-r--r--  1 root root   4307 May 15 12:36 information_schema_relations.lib.php
+-rw-r--r--  1 root root   9428 May 15 12:36 ip_allow_deny.lib.php
+-rw-r--r--  1 root root   3994 May 15 12:36 kanji-encoding.lib.php
+-rw-r--r--  1 root root   3724 May 15 12:36 left_header.inc.php
+-rw-r--r--  1 root root   2701 May 15 12:36 mcrypt.lib.php
+-rw-r--r--  1 root root  17201 May 15 12:36 mult_submits.inc.php
+-rw-r--r--  1 root root  14646 May 15 12:36 mysql_charsets.lib.php
+-rw-r--r--  1 root root   3500 May 15 12:36 ob.lib.php
+-rw-r--r--  1 root root  10095 May 15 12:36 plugin_interface.lib.php
+-rw-r--r--  1 root root   6940 May 15 12:36 read_dump.lib.php
+-rw-r--r--  1 root root   6928 May 15 12:36 relation_cleanup.lib.php
+-rw-r--r--  1 root root  34286 May 15 12:36 relation.lib.php
+-rw-r--r--  1 root root   1249 May 15 12:36 sanitizing.lib.php
+-rw-r--r--  1 root root  21287 May 15 12:36 select_lang.lib.php
+-rw-r--r--  1 root root   4175 May 15 12:36 select_server.lib.php
+-rw-r--r--  1 root root   1673 May 15 12:36 server_common.inc.php
+-rw-r--r--  1 root root   2242 May 15 12:36 server_links.inc.php
+-rw-r--r--  1 root root   4380 May 15 12:36 session.inc.php
+-rw-r--r--  1 root root  21007 May 15 12:36 sqlparser.data.php
+-rw-r--r--  1 root root  94298 May 15 12:36 sqlparser.lib.php
+-rw-r--r--  1 root root  20816 May 15 12:36 sql_query_form.lib.php
+-rw-r--r--  1 root root  13610 May 15 12:36 sqlvalidator.class.php
+-rw-r--r--  1 root root   2985 May 15 12:36 sqlvalidator.lib.php
+-rw-r--r--  1 root root   9859 May 15 12:36 storage_engines.lib.php
+-rw-r--r--  1 root root  10615 May 15 12:36 string.lib.php
+-rw-r--r--  1 root root  10490 May 15 12:36 tbl_indexes.lib.php
+-rw-r--r--  1 root root  21469 May 15 12:36 tbl_move_copy.php
+-rw-r--r--  1 root root   1030 May 15 12:36 tbl_properties_common.php
+-rw-r--r--  1 root root  29837 May 15 12:36 tbl_properties.inc.php
+-rw-r--r--  1 root root   4148 May 15 12:36 tbl_properties_links.inc.php
+-rw-r--r--  1 root root   3537 May 15 12:36 tbl_properties_table_info.inc.php
+-rw-r--r--  1 root root   9403 May 15 12:36 tbl_replace_fields.inc.php
+-rw-r--r--  1 root root   7057 May 15 12:36 Theme.class.php
+-rw-r--r--  1 root root   8129 May 15 12:36 Theme_Manager.class.php
+drwxr-xr-x  2 root root   4096 Oct 24 16:35 transformations
+-rw-r--r--  1 root root   8335 May 15 12:36 transformations.lib.php
+-rw-r--r--  1 root root  16057 May 15 12:36 unzip.lib.php
+-rw-r--r--  1 root root   6083 May 15 12:36 url_generating.lib.php
+-rw-r--r--  1 root root   6478 May 15 12:37 zip.lib.php
+
+admin/phpMyAdmin-2.8.0.4/libraries/auth:
+total 48
+-rw-r--r--  1 root root  4321 May 15 12:35 config.auth.lib.php
+-rw-r--r--  1 root root 18872 May 15 12:35 cookie.auth.lib.php
+-rw-r--r--  1 root root  6556 May 15 12:35 http.auth.lib.php
+
+admin/phpMyAdmin-2.8.0.4/libraries/dbg:
+total 20
+-rw-r--r--  1 root root 4769 May 15 12:36 profiling.php
+-rw-r--r--  1 root root  750 May 15 12:36 setup.php
+
+admin/phpMyAdmin-2.8.0.4/libraries/dbi:
+total 36
+-rw-r--r--  1 root root 10389 May 15 12:36 mysql.dbi.lib.php
+-rw-r--r--  1 root root 14756 May 15 12:36 mysqli.dbi.lib.php
+
+admin/phpMyAdmin-2.8.0.4/libraries/engines:
+total 92
+-rw-r--r--  1 root root  1689 May 15 12:36 bdb.lib.php
+-rw-r--r--  1 root root   235 May 15 12:36 berkeleydb.lib.php
+-rw-r--r--  1 root root   409 May 15 12:36 binlog.lib.php
+-rw-r--r--  1 root root   233 May 15 12:36 innobase.lib.php
+-rw-r--r--  1 root root 14050 May 15 12:36 innodb.lib.php
+-rw-r--r--  1 root root   544 May 15 12:36 memory.lib.php
+-rw-r--r--  1 root root   172 May 15 12:36 merge.lib.php
+-rw-r--r--  1 root root   469 May 15 12:36 mrg_myisam.lib.php
+-rw-r--r--  1 root root  2196 May 15 12:36 myisam.lib.php
+-rw-r--r--  1 root root   728 May 15 12:36 ndbcluster.lib.php
+
+admin/phpMyAdmin-2.8.0.4/libraries/export:
+total 128
+-rw-r--r--  1 root root  5104 May 15 12:36 csv.php
+-rw-r--r--  1 root root  3907 May 15 12:36 htmlexcel.php
+-rw-r--r--  1 root root 10561 May 15 12:36 htmlword.php
+-rw-r--r--  1 root root 13826 May 15 12:36 latex.php
+-rw-r--r--  1 root root 12470 May 15 12:36 pdf.php
+-rw-r--r--  1 root root 25288 May 15 12:36 sql.php
+-rw-r--r--  1 root root  3663 May 15 12:36 xls.php
+-rw-r--r--  1 root root  4255 May 15 12:36 xml.php
+
+admin/phpMyAdmin-2.8.0.4/libraries/fpdf:
+total 80
+drwxr-xr-x  2 root root  4096 Oct 24 16:35 font
+-rw-r--r--  1 root root 40299 May 15 12:36 fpdf.php
+-rw-r--r--  1 root root   120 May 15 12:36 README
+-rw-r--r--  1 root root 14076 May 15 12:36 ufpdf.php
+
+admin/phpMyAdmin-2.8.0.4/libraries/fpdf/font:
+total 356
+-rw-r--r--  1 root root    286 May 15 12:36 courier.php
+-rw-r--r--  1 root root   2193 May 15 12:36 FreeSansBold.ctg.z
+-rw-r--r--  1 root root      0 Oct 24 16:20 FreeSansBold.php
+-rw-r--r--  1 root root  46047 May 15 12:36 FreeSansBold.z
+-rw-r--r--  1 root root   4503 May 15 12:36 FreeSans.ctg.z
+-rw-r--r--  1 root root  23911 May 15 12:36 FreeSans.php
+-rw-r--r--  1 root root 131363 May 15 12:36 FreeSans.z
+-rw-r--r--  1 root root   3183 May 15 12:36 helveticabi.php
+-rw-r--r--  1 root root   3182 May 15 12:36 helveticab.php
+-rw-r--r--  1 root root   3183 May 15 12:36 helveticai.php
+-rw-r--r--  1 root root   3182 May 15 12:36 helvetica.php
+-rw-r--r--  1 root root   3106 May 15 12:36 symbol.php
+-rw-r--r--  1 root root   4293 May 15 12:36 tahomab.php
+-rw-r--r--  1 root root   4285 May 15 12:36 tahoma.php
+-rw-r--r--  1 root root   3177 May 15 12:36 timesbi.php
+-rw-r--r--  1 root root   3180 May 15 12:36 timesb.php
+-rw-r--r--  1 root root   3173 May 15 12:36 timesi.php
+-rw-r--r--  1 root root   3174 May 15 12:36 times.php
+-rw-r--r--  1 root root   3071 May 15 12:36 zapfdingbats.php
+
+admin/phpMyAdmin-2.8.0.4/libraries/import:
+total 48
+-rw-r--r--  1 root root 10587 May 15 12:36 csv.php
+-rw-r--r--  1 root root  4375 May 15 12:36 ldi.php
+-rw-r--r--  1 root root  1885 May 15 12:36 README
+-rw-r--r--  1 root root  7149 May 15 12:36 sql.php
+
+admin/phpMyAdmin-2.8.0.4/libraries/transformations:
+total 152
+-rw-r--r--  1 root root  822 May 15 12:36 application_octetstream__download.inc.php
+-rw-r--r--  1 root root  420 May 15 12:36 application_octetstream__hex.inc.php
+-rwxr-xr-x  1 root root  856 May 15 12:36 generator.sh
+-rw-r--r--  1 root root 1573 May 15 12:36 global.inc.php
+-rw-r--r--  1 root root  979 May 15 12:36 image_jpeg__inline.inc.php
+-rw-r--r--  1 root root  525 May 15 12:36 image_jpeg__link.inc.php
+-rw-r--r--  1 root root  976 May 15 12:36 image_png__inline.inc.php
+-rw-r--r--  1 root root  170 May 15 12:36 README
+-rw-r--r--  1 root root 1120 May 15 12:36 TEMPLATE
+-rwxr-xr-x  1 root root  530 May 15 12:36 template_generator_mimetype.sh
+-rwxr-xr-x  1 root root  645 May 15 12:36 template_generator.sh
+-rw-r--r--  1 root root  390 May 15 12:36 TEMPLATE_MIMETYPE
+-rw-r--r--  1 root root 2109 May 15 12:36 text_plain__dateformat.inc.php
+-rw-r--r--  1 root root 2655 May 15 12:36 text_plain__external.inc.php
+-rw-r--r--  1 root root  240 May 15 12:36 text_plain__formatted.inc.php
+-rw-r--r--  1 root root  735 May 15 12:36 text_plain__imagelink.inc.php
+-rw-r--r--  1 root root  839 May 15 12:36 text_plain__link.inc.php
+-rw-r--r--  1 root root  386 May 15 12:36 text_plain__sql.inc.php
+-rw-r--r--  1 root root 1187 May 15 12:36 text_plain__substr.inc.php
+
+admin/phpMyAdmin-2.8.0.4/scripts:
+total 180
+-rw-r--r--  1 root root  1817 May 15 12:37 check_lang.php
+-rwxr-xr-x  1 root root   404 May 15 12:37 convertcfg.pl
+-rwxr-xr-x  1 root root  7727 May 15 12:37 create-release.sh
+-rw-r--r--  1 root root  5502 May 15 12:37 create_tables_mysql_4_1_2+.sql
+-rw-r--r--  1 root root  4743 May 15 12:37 create_tables.sql
+-rw-r--r--  1 root root  2741 May 15 12:37 decode_bug.php
+-rwxr-xr-x  1 root root  1090 May 15 12:37 find_unused_messages.sh
+-rwxr-xr-x  1 root root   396 May 15 12:37 remove_control_m.sh
+-rw-r--r--  1 root root 70653 May 15 12:37 setup.php
+-rwxr-xr-x  1 root root  4992 May 15 12:37 upgrade.pl
+-rw-r--r--  1 root root  5856 May 15 12:37 upgrade_tables_mysql_4_1_2+.sql
+
+admin/phpMyAdmin-2.8.0.4/test:
+total 16
+-rw-r--r--  1 root root 9772 May 15 12:37 theme.php
+
+admin/phpMyAdmin-2.8.0.4/themes:
+total 16
+drwxr-xr-x  4 root root 4096 Oct 24 16:35 darkblue_orange
+drwxr-xr-x  4 root root 4096 Oct 24 16:35 original
+
+admin/phpMyAdmin-2.8.0.4/themes/darkblue_orange:
+total 56
+drwxr-xr-x  2 root root  4096 Oct 24 16:37 css
+drwxr-xr-x  2 root root  4096 Oct 24 16:37 img
+-rw-r--r--  1 root root   207 May 15 12:38 info.inc.php
+-rw-r--r--  1 root root  2051 May 15 12:38 layout.inc.php
+-rw-r--r--  1 root root 18697 May 15 12:38 screen.png
+
+admin/phpMyAdmin-2.8.0.4/themes/darkblue_orange/css:
+total 40
+-rw-r--r--  1 root root  2874 May 15 12:37 theme_left.css.php
+-rw-r--r--  1 root root   915 May 15 12:37 theme_print.css.php
+-rw-r--r--  1 root root 17992 May 15 12:37 theme_right.css.php
+
+admin/phpMyAdmin-2.8.0.4/themes/darkblue_orange/img:
+total 912
+-rw-r--r--  1 root root  277 May 15 12:37 arrow_ltr.png
+-rw-r--r--  1 root root  278 May 15 12:37 arrow_rtl.png
+-rw-r--r--  1 root root  124 May 15 12:37 asc_order.png
+-rw-r--r--  1 root root  372 May 15 12:37 b_bookmark.png
+-rw-r--r--  1 root root  265 May 15 12:37 b_browse.png
+-rw-r--r--  1 root root  308 May 15 12:37 b_calendar.png
+-rw-r--r--  1 root root  552 May 15 12:37 b_comment.png
+-rw-r--r--  1 root root  265 May 15 12:37 bd_browse.png
+-rw-r--r--  1 root root  263 May 15 12:37 b_dbstatistics.png
+-rw-r--r--  1 root root  424 May 15 12:37 bd_deltbl.png
+-rw-r--r--  1 root root  337 May 15 12:37 bd_drop.png
+-rw-r--r--  1 root root  364 May 15 12:37 b_deltbl.png
+-rw-r--r--  1 root root  298 May 15 12:37 bd_empty.png
+-rw-r--r--  1 root root  238 May 15 12:37 bd_firstpage.png
+-rw-r--r--  1 root root  277 May 15 12:37 bd_ftext.png
+-rw-r--r--  1 root root  315 May 15 12:37 bd_index.png
+-rw-r--r--  1 root root  347 May 15 12:37 bd_insrow.png
+-rw-r--r--  1 root root  236 May 15 12:37 bd_lastpage.png
+-rw-r--r--  1 root root  221 May 15 12:37 bd_nextpage.png
+-rw-r--r--  1 root root  292 May 15 12:37 b_docs.png
+-rw-r--r--  1 root root  283 May 15 12:37 b_docsql.png
+-rw-r--r--  1 root root  225 May 15 12:37 bd_prevpage.png
+-rw-r--r--  1 root root  389 May 15 12:37 bd_primary.png
+-rw-r--r--  1 root root  311 May 15 12:37 b_drop.png
+-rw-r--r--  1 root root  197 May 15 12:37 bd_sbrowse.png
+-rw-r--r--  1 root root  524 May 15 12:37 bd_select.png
+-rw-r--r--  1 root root  287 May 15 12:37 bd_unique.png
+-rw-r--r--  1 root root  451 May 15 12:37 b_edit.png
+-rw-r--r--  1 root root  298 May 15 12:37 b_empty.png
+-rw-r--r--  1 root root  362 May 15 12:37 b_engine.png
+-rw-r--r--  1 root root  313 May 15 12:37 b_export.png
+-rw-r--r--  1 root root  238 May 15 12:37 b_firstpage.png
+-rw-r--r--  1 root root  277 May 15 12:37 b_ftext.png
+-rw-r--r--  1 root root  229 May 15 12:37 b_help.png
+-rw-r--r--  1 root root  370 May 15 12:37 b_home.png
+-rw-r--r--  1 root root  310 May 15 12:37 b_import.png
+-rw-r--r--  1 root root  315 May 15 12:37 b_index.png
+-rw-r--r--  1 root root  234 May 15 12:37 b_info.png
+-rw-r--r--  1 root root  283 May 15 12:37 b_insrow.png
+-rw-r--r--  1 root root  236 May 15 12:37 b_lastpage.png
+-rw-r--r--  1 root root  183 May 15 12:37 b_minus.png
+-rw-r--r--  1 root root  408 May 15 12:37 b_newdb.png
+-rw-r--r--  1 root root  409 May 15 12:37 b_newtbl.png
+-rw-r--r--  1 root root  221 May 15 12:37 b_nextpage.png
+-rw-r--r--  1 root root  298 May 15 12:37 b_pdfdoc.png
+-rw-r--r--  1 root root  185 May 15 12:37 b_plus.png
+-rw-r--r--  1 root root  225 May 15 12:37 b_prevpage.png
+-rw-r--r--  1 root root  416 May 15 12:37 b_primary.png
+-rw-r--r--  1 root root  574 May 15 12:37 b_print.png
+-rw-r--r--  1 root root  294 May 15 12:37 b_props.png
+-rw-r--r--  1 root root  280 May 15 12:37 b_relations.png
+-rw-r--r--  1 root root  385 May 15 12:37 b_save.png
+-rw-r--r--  1 root root  197 May 15 12:37 b_sbrowse.png
+-rw-r--r--  1 root root  232 May 15 12:37 b_sdb.png
+-rw-r--r--  1 root root  605 May 15 12:37 b_search.png
+-rw-r--r--  1 root root  274 May 15 12:37 b_selboard.png
+-rw-r--r--  1 root root  540 May 15 12:37 b_select.png
+-rw-r--r--  1 root root  290 May 15 12:37 b_sqldoc.png
+-rw-r--r--  1 root root  287 May 15 12:37 b_sqlhelp.png
+-rw-r--r--  1 root root  322 May 15 12:37 b_sql.png
+-rw-r--r--  1 root root  296 May 15 12:37 b_tblanalyse.png
+-rw-r--r--  1 root root  283 May 15 12:37 b_tblexport.png
+-rw-r--r--  1 root root  280 May 15 12:37 b_tblimport.png
+-rw-r--r--  1 root root  345 May 15 12:37 b_tblops.png
+-rw-r--r--  1 root root  300 May 15 12:37 b_tbloptimize.png
+-rw-r--r--  1 root root  308 May 15 12:37 b_tipp.png
+-rw-r--r--  1 root root  281 May 15 12:37 b_unique.png
+-rw-r--r--  1 root root  523 May 15 12:37 b_usradd.png
+-rw-r--r--  1 root root  400 May 15 12:37 b_usrcheck.png
+-rw-r--r--  1 root root  438 May 15 12:37 b_usrdrop.png
+-rw-r--r--  1 root root  493 May 15 12:37 b_usredit.png
+-rw-r--r--  1 root root  401 May 15 12:37 b_usrlist.png
+-rw-r--r--  1 root root  885 May 15 12:37 b_view.png
+-rw-r--r--  1 root root  477 May 15 12:37 b_views.png
+-rw-r--r--  1 root root  318 May 15 12:37 error.ico
+-rw-r--r--  1 root root  173 May 15 12:37 item_ltr.png
+-rw-r--r--  1 root root  206 May 15 12:37 item.png
+-rw-r--r--  1 root root  173 May 15 12:37 item_rtl.png
+-rw-r--r--  1 root root 4432 May 15 12:37 logo_left.png
+-rw-r--r--  1 root root 5644 May 15 12:37 logo_right.png
+-rw-r--r--  1 root root  249 May 15 12:37 php_sym.png
+-rw-r--r--  1 root root 1837 May 15 12:37 pma_logo2.png
+-rw-r--r--  1 root root  254 May 15 12:37 s_asci.png
+-rw-r--r--  1 root root  213 May 15 12:37 s_asc.png
+-rw-r--r--  1 root root  247 May 15 12:37 s_attention.png
+-rw-r--r--  1 root root  234 May 15 12:37 s_cancel2.png
+-rw-r--r--  1 root root  449 May 15 12:37 s_cancel.png
+-rw-r--r--  1 root root  285 May 15 12:37 s_db.png
+-rw-r--r--  1 root root  221 May 15 12:37 s_desc.png
+-rw-r--r--  1 root root  237 May 15 12:37 s_error2.png
+-rw-r--r--  1 root root  272 May 15 12:37 s_error.png
+-rw-r--r--  1 root root  308 May 15 12:37 s_fulltext.png
+-rw-r--r--  1 root root  316 May 15 12:37 s_host.png
+-rw-r--r--  1 root root  247 May 15 12:37 s_info.png
+-rw-r--r--  1 root root  422 May 15 12:37 s_lang.png
+-rw-r--r--  1 root root  262 May 15 12:37 s_loggoff.png
+-rw-r--r--  1 root root  247 May 15 12:37 s_notice.png
+-rw-r--r--  1 root root  542 May 15 12:37 s_okay.png
+-rw-r--r--  1 root root  153 May 15 12:38 spacer.png
+-rw-r--r--  1 root root  318 May 15 12:37 s_partialtext.png
+-rw-r--r--  1 root root  505 May 15 12:37 s_passwd.png
+-rw-r--r--  1 root root  362 May 15 12:37 s_process.png
+-rw-r--r--  1 root root  229 May 15 12:37 s_really.png
+-rw-r--r--  1 root root  245 May 15 12:38 s_reload.png
+-rw-r--r--  1 root root  512 May 15 12:38 s_rights.png
+-rw-r--r--  1 root root  313 May 15 12:38 s_status.png
+-rw-r--r--  1 root root  252 May 15 12:38 s_tbl.png
+-rw-r--r--  1 root root  737 May 15 12:38 s_theme.png
+-rw-r--r--  1 root root  306 May 15 12:38 s_vars.png
+-rw-r--r--  1 root root  368 May 15 12:38 s_views.png
+-rw-r--r--  1 root root  261 May 15 12:38 s_warn.png
+-rw-r--r--  1 root root  832 May 15 12:38 tbl_header.png
+-rw-r--r--  1 root root  593 May 15 12:38 tbl_th.png
+
+admin/phpMyAdmin-2.8.0.4/themes/original:
+total 60
+drwxr-xr-x  2 root root  4096 Oct 24 16:36 css
+drwxr-xr-x  2 root root  4096 Oct 24 16:36 img
+-rw-r--r--  1 root root   200 May 15 12:38 info.inc.php
+-rw-r--r--  1 root root  2051 May 15 12:38 layout.inc.php
+-rw-r--r--  1 root root 23699 May 15 12:38 screen.png
+
+admin/phpMyAdmin-2.8.0.4/themes/original/css:
+total 40
+-rw-r--r--  1 root root  2590 May 15 12:38 theme_left.css.php
+-rw-r--r--  1 root root  1086 May 15 12:38 theme_print.css.php
+-rw-r--r--  1 root root 16518 May 15 12:38 theme_right.css.php
+
+admin/phpMyAdmin-2.8.0.4/themes/original/img:
+total 904
+-rw-r--r--  1 root root  277 May 15 12:38 arrow_ltr.png
+-rw-r--r--  1 root root  278 May 15 12:38 arrow_rtl.png
+-rw-r--r--  1 root root  124 May 15 12:38 asc_order.png
+-rw-r--r--  1 root root  372 May 15 12:38 b_bookmark.png
+-rw-r--r--  1 root root  265 May 15 12:38 b_browse.png
+-rw-r--r--  1 root root  308 May 15 12:38 b_calendar.png
+-rw-r--r--  1 root root  552 May 15 12:38 b_comment.png
+-rw-r--r--  1 root root  265 May 15 12:38 bd_browse.png
+-rw-r--r--  1 root root  263 May 15 12:38 b_dbstatistics.png
+-rw-r--r--  1 root root  424 May 15 12:38 bd_deltbl.png
+-rw-r--r--  1 root root  337 May 15 12:38 bd_drop.png
+-rw-r--r--  1 root root  364 May 15 12:38 b_deltbl.png
+-rw-r--r--  1 root root  298 May 15 12:38 bd_empty.png
+-rw-r--r--  1 root root  238 May 15 12:38 bd_firstpage.png
+-rw-r--r--  1 root root  277 May 15 12:38 bd_ftext.png
+-rw-r--r--  1 root root  315 May 15 12:38 bd_index.png
+-rw-r--r--  1 root root  347 May 15 12:38 bd_insrow.png
+-rw-r--r--  1 root root  236 May 15 12:38 bd_lastpage.png
+-rw-r--r--  1 root root  221 May 15 12:38 bd_nextpage.png
+-rw-r--r--  1 root root  292 May 15 12:38 b_docs.png
+-rw-r--r--  1 root root  283 May 15 12:38 b_docsql.png
+-rw-r--r--  1 root root  225 May 15 12:38 bd_prevpage.png
+-rw-r--r--  1 root root  389 May 15 12:38 bd_primary.png
+-rw-r--r--  1 root root  311 May 15 12:38 b_drop.png
+-rw-r--r--  1 root root  197 May 15 12:38 bd_sbrowse.png
+-rw-r--r--  1 root root  524 May 15 12:38 bd_select.png
+-rw-r--r--  1 root root  287 May 15 12:38 bd_unique.png
+-rw-r--r--  1 root root  451 May 15 12:38 b_edit.png
+-rw-r--r--  1 root root  298 May 15 12:38 b_empty.png
+-rw-r--r--  1 root root  362 May 15 12:38 b_engine.png
+-rw-r--r--  1 root root  313 May 15 12:38 b_export.png
+-rw-r--r--  1 root root  238 May 15 12:38 b_firstpage.png
+-rw-r--r--  1 root root  277 May 15 12:38 b_ftext.png
+-rw-r--r--  1 root root  229 May 15 12:38 b_help.png
+-rw-r--r--  1 root root  370 May 15 12:38 b_home.png
+-rw-r--r--  1 root root  310 May 15 12:38 b_import.png
+-rw-r--r--  1 root root  315 May 15 12:38 b_index.png
+-rw-r--r--  1 root root  234 May 15 12:38 b_info.png
+-rw-r--r--  1 root root  283 May 15 12:38 b_insrow.png
+-rw-r--r--  1 root root  236 May 15 12:38 b_lastpage.png
+-rw-r--r--  1 root root  183 May 15 12:38 b_minus.png
+-rw-r--r--  1 root root  408 May 15 12:38 b_newdb.png
+-rw-r--r--  1 root root  409 May 15 12:38 b_newtbl.png
+-rw-r--r--  1 root root  221 May 15 12:38 b_nextpage.png
+-rw-r--r--  1 root root  298 May 15 12:38 b_pdfdoc.png
+-rw-r--r--  1 root root  185 May 15 12:38 b_plus.png
+-rw-r--r--  1 root root  225 May 15 12:38 b_prevpage.png
+-rw-r--r--  1 root root  416 May 15 12:38 b_primary.png
+-rw-r--r--  1 root root  574 May 15 12:38 b_print.png
+-rw-r--r--  1 root root  294 May 15 12:38 b_props.png
+-rw-r--r--  1 root root  280 May 15 12:38 b_relations.png
+-rw-r--r--  1 root root  385 May 15 12:38 b_save.png
+-rw-r--r--  1 root root  197 May 15 12:38 b_sbrowse.png
+-rw-r--r--  1 root root  232 May 15 12:38 b_sdb.png
+-rw-r--r--  1 root root  605 May 15 12:38 b_search.png
+-rw-r--r--  1 root root  274 May 15 12:38 b_selboard.png
+-rw-r--r--  1 root root  540 May 15 12:38 b_select.png
+-rw-r--r--  1 root root  290 May 15 12:38 b_sqldoc.png
+-rw-r--r--  1 root root  287 May 15 12:38 b_sqlhelp.png
+-rw-r--r--  1 root root  322 May 15 12:38 b_sql.png
+-rw-r--r--  1 root root  296 May 15 12:38 b_tblanalyse.png
+-rw-r--r--  1 root root  283 May 15 12:38 b_tblexport.png
+-rw-r--r--  1 root root  280 May 15 12:38 b_tblimport.png
+-rw-r--r--  1 root root  345 May 15 12:38 b_tblops.png
+-rw-r--r--  1 root root  300 May 15 12:38 b_tbloptimize.png
+-rw-r--r--  1 root root  308 May 15 12:38 b_tipp.png
+-rw-r--r--  1 root root  281 May 15 12:38 b_unique.png
+-rw-r--r--  1 root root  523 May 15 12:38 b_usradd.png
+-rw-r--r--  1 root root  400 May 15 12:38 b_usrcheck.png
+-rw-r--r--  1 root root  438 May 15 12:38 b_usrdrop.png
+-rw-r--r--  1 root root  493 May 15 12:38 b_usredit.png
+-rw-r--r--  1 root root  401 May 15 12:38 b_usrlist.png
+-rw-r--r--  1 root root  885 May 15 12:38 b_view.png
+-rw-r--r--  1 root root  477 May 15 12:38 b_views.png
+-rw-r--r--  1 root root  318 May 15 12:38 error.ico
+-rw-r--r--  1 root root  173 May 15 12:38 item_ltr.png
+-rw-r--r--  1 root root  206 May 15 12:38 item.png
+-rw-r--r--  1 root root  173 May 15 12:38 item_rtl.png
+-rw-r--r--  1 root root 4424 May 15 12:38 logo_left.png
+-rw-r--r--  1 root root 5658 May 15 12:38 logo_right.png
+-rw-r--r--  1 root root  249 May 15 12:38 php_sym.png
+-rw-r--r--  1 root root 1837 May 15 12:38 pma_logo2.png
+-rw-r--r--  1 root root  254 May 15 12:38 s_asci.png
+-rw-r--r--  1 root root  213 May 15 12:38 s_asc.png
+-rw-r--r--  1 root root  247 May 15 12:38 s_attention.png
+-rw-r--r--  1 root root  234 May 15 12:38 s_cancel2.png
+-rw-r--r--  1 root root  449 May 15 12:38 s_cancel.png
+-rw-r--r--  1 root root  285 May 15 12:38 s_db.png
+-rw-r--r--  1 root root  221 May 15 12:38 s_desc.png
+-rw-r--r--  1 root root  237 May 15 12:38 s_error2.png
+-rw-r--r--  1 root root  272 May 15 12:38 s_error.png
+-rw-r--r--  1 root root  308 May 15 12:38 s_fulltext.png
+-rw-r--r--  1 root root  316 May 15 12:38 s_host.png
+-rw-r--r--  1 root root  247 May 15 12:38 s_info.png
+-rw-r--r--  1 root root  422 May 15 12:38 s_lang.png
+-rw-r--r--  1 root root  262 May 15 12:38 s_loggoff.png
+-rw-r--r--  1 root root  247 May 15 12:38 s_notice.png
+-rw-r--r--  1 root root  542 May 15 12:38 s_okay.png
+-rw-r--r--  1 root root  153 May 15 12:38 spacer.png
+-rw-r--r--  1 root root  318 May 15 12:38 s_partialtext.png
+-rw-r--r--  1 root root  505 May 15 12:38 s_passwd.png
+-rw-r--r--  1 root root  362 May 15 12:38 s_process.png
+-rw-r--r--  1 root root  229 May 15 12:38 s_really.png
+-rw-r--r--  1 root root  245 May 15 12:38 s_reload.png
+-rw-r--r--  1 root root  512 May 15 12:38 s_rights.png
+-rw-r--r--  1 root root  313 May 15 12:38 s_status.png
+-rw-r--r--  1 root root  252 May 15 12:38 s_tbl.png
+-rw-r--r--  1 root root  737 May 15 12:38 s_theme.png
+-rw-r--r--  1 root root  306 May 15 12:38 s_vars.png
+-rw-r--r--  1 root root  368 May 15 12:38 s_views.png
+-rw-r--r--  1 root root  261 May 15 12:38 s_warn.png
+-rw-r--r--  1 root root   83 May 15 12:38 vertical_line.png
+
+admin/programming:
+total 8
+drwxr-xr-x  7 apache apache 4096 Sep  1 11:35 video
+
+admin/programming/video:
+total 356
+-rw-r--r--  1 apache apache 54967 Jul 17 13:38 __admin.swf
+-rw-r--r--  1 apache apache 55167 Aug 16 17:51 admin.swf
+-rw-r--r--  1 apache apache  2952 Jul 24 22:05 archive.php
+drwxr-xr-x  7 root   root    4096 Sep  1 11:19 components
+drwxr-xr-x  3 apache apache  4096 Sep  1 11:30 content
+-rw-r--r--  1 apache apache   623 Jul 25 14:01 DeleteChannel.php
+-rw-r--r--  1 apache apache   907 Jul 24 22:23 edit.gif
+-rw-r--r--  1 apache apache   264 Apr 11  2006 editPlaylists.php
+-rw-r--r--  1 apache apache   260 Apr 11  2006 editRolls.php
+-rw-r--r--  1 apache apache   262 Apr 11  2006 editTVSpots.php
+drwxr-xr-x  2 root   root    4096 Sep  1 11:35 includes
+-rw-r--r--  1 apache apache  3533 Oct 21 13:01 modifyRolls.php
+drwxr-xr-x  4 apache apache  4096 Aug  7 02:09 playlist_admin
+-rw-r--r--  1 root   root     266 Sep  1 11:32 PlaylistManager.php
+-rwxr--r--  1 root   root   92848 Oct 24 05:58 PlaylistManager.swf
+-rw-r--r--  1 apache apache   265 Apr 11  2006 playlistTarget.php
+-rw-r--r--  1 apache apache  1079 Jul 24 22:23 preview.gif
+-rw-r--r--  1 apache apache   708 Jul 25 14:01 SetStatus.php
+drwxr-xr-x  2 root   root    4096 Sep  1 11:21 xml
+
+admin/programming/video/components:
+total 40
+drwxr-xr-x  2 root root 4096 Sep  1 11:16 chapter_editor
+drwxr-xr-x  2 root root 4096 Sep  1 11:18 media_library
+drwxr-xr-x  2 root root 4096 Sep  1 11:19 media_thumb
+drwxr-xr-x  2 root root 4096 Sep  1 11:19 playlist_editor
+drwxr-xr-x  2 root root 4096 Sep  1 11:19 playlist_viewer
+
+admin/programming/video/components/chapter_editor:
+total 84
+-rw-r--r--  1 root root 77683 Sep  1 11:19 chapter_editor.swf
+
+admin/programming/video/components/media_library:
+total 88
+-rwxr--r--  1 root root 78823 Oct 20 15:36 media_library.swf
+
+admin/programming/video/components/media_thumb:
+total 8
+-rw-r--r--  1 root root 2067 Sep  1 11:19 media_thumb.swf
+
+admin/programming/video/components/playlist_editor:
+total 80
+-rwxr--r--  1 root root 70890 Aug 31 14:02 playlist_editor.swf
+
+admin/programming/video/components/playlist_viewer:
+total 12
+-rw-r--r--  1 root root 7265 Oct 20 15:36 playlist_viewer.swf
+
+admin/programming/video/content:
+total 76
+drwxr-xr-x  2 apache apache  4096 Aug  7 02:09 CVS
+-rw-r--r--  1 apache apache   833 Apr 11  2006 __editPlaylists.php
+-rw-r--r--  1 apache apache  7750 Oct 21 11:00 editPlaylists.php
+-rw-r--r--  1 apache apache  2080 Oct 21 12:38 editRolls.php
+-rw-r--r--  1 apache apache  5625 Apr 11  2006 editTVSpots.php
+-rw-r--r--  1 root   root     898 Sep 17 01:03 PlaylistManager.php
+-rw-r--r--  1 apache apache 14181 Oct 20 14:38 playlistTarget.php
+
+admin/programming/video/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 213 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  32 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/programming/video/includes:
+total 16
+-rw-r--r--  1 root root 8311 Sep  1 11:35 swfobject_source.js
+
+admin/programming/video/playlist_admin:
+total 204
+-rw-r--r--  1 apache apache 54963 Jul 17 13:06 __admin.swf
+drwxr-xr-x  3 apache apache  4096 Aug  7 02:09 backup
+-rw-r--r--  1 apache apache  1327 Jul 19 09:51 createPlaylist.php
+drwxr-xr-x  2 apache apache  4096 Aug  7 02:09 CVS
+-rw-r--r--  1 apache apache   809 Jul 27 06:28 deletePlaylist.php
+-rw-r--r--  1 apache apache  1775 Jul 27 07:33 editMedia.php
+-rw-r--r--  1 apache apache   857 Jul 27 07:32 editPlaylist.php
+-rw-r--r--  1 apache apache  1863 Jul 27 07:32 editPublisher.php
+-rw-r--r--  1 apache apache  7106 Apr 19  2006 index.html
+-rw-r--r--  1 apache apache  1733 Apr 18  2006 userLogin.php
+-rw-r--r--  1 apache apache  8123 Jun 29 15:26 xmlGenerator.php
+-rw-r--r--  1 apache apache  1256 Aug  7 02:04 xmlGenerator.php.attachment00
+-rw-r--r--  1 apache apache  3843 Jul 24 12:26 xmlInstance.php
+-rw-r--r--  1 apache apache   761 Aug  7 02:04 xmlInstance.php.attachment00
+-rw-r--r--  1 apache apache  5562 Jun 27 09:34 xml.php
+-rw-r--r--  1 apache apache  2842 Jul 27 07:33 xmlPublishers.php
+-rw-r--r--  1 apache apache   810 Aug  7 02:04 xmlPublishers.php.attachment00
+
+admin/programming/video/playlist_admin/backup:
+total 264
+-rw-r--r--  1 apache apache 58228 Apr 11  2006 __admin.swf
+-rw-r--r--  1 apache apache 58214 Apr 11  2006 admin.swf
+-rw-r--r--  1 apache apache  1290 Apr 11  2006 createPlaylist.php
+drwxr-xr-x  2 apache apache  4096 Aug  7 02:09 CVS
+-rw-r--r--  1 apache apache   827 Apr 11  2006 deletePlaylist.php
+-rw-r--r--  1 apache apache  1847 Apr 11  2006 editMedia.php
+-rw-r--r--  1 apache apache   819 Apr 11  2006 editPlaylist.php
+-rw-r--r--  1 apache apache  1927 Apr 11  2006 editPublisher.php
+-rw-r--r--  1 apache apache  1229 Apr 11  2006 index.html
+-rw-r--r--  1 apache apache  1845 Apr 11  2006 userLogin.php
+-rw-r--r--  1 apache apache  4776 Apr 11  2006 xmlGenerator.php
+-rw-r--r--  1 apache apache  1271 Aug  7 02:04 xmlGenerator.php.attachment00
+-rw-r--r--  1 apache apache  2624 Apr 11  2006 xmlInstance.php
+-rw-r--r--  1 apache apache   543 Aug  7 02:04 xmlInstance.php.attachment00
+-rw-r--r--  1 apache apache  5391 Apr 11  2006 xml.php
+-rw-r--r--  1 apache apache  2881 Apr 11  2006 xmlPublishers.php
+-rw-r--r--  1 apache apache   810 Aug  7 02:04 xmlPublishers.php.attachment00
+
+admin/programming/video/playlist_admin/backup/CVS:
+total 24
+-rw-r--r--  1 apache apache 669 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  46 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/programming/video/playlist_admin/CVS:
+total 32
+-rw-r--r--  1 apache apache 669 Apr 11  2006 Entries
+-rw-r--r--  1 apache apache  15 Apr 11  2006 Entries.Log
+-rw-r--r--  1 apache apache  39 Apr 11  2006 Repository
+-rw-r--r--  1 apache apache  35 Apr 11  2006 Root
+
+admin/programming/video/xml:
+total 108
+-rw-r--r--  1 root     root      3929 Oct 20 16:44 get_channels.php
+-rw-r--r--  1 root     root      2681 Oct 20 16:44 get_chapters.php
+-rw-r--r--  1 root     root      2014 Oct 19 12:39 get_media_info.php
+-rw-r--r--  1 jschmidt jschmidt 11973 Oct 20 16:42 get_media_library.php
+-rw-r--r--  1 root     root      6179 Oct 24 17:02 get_playlist_data.php
+-rw-r--r--  1 root     root      4102 Oct 20 16:40 get_playlists.php
+-rw-r--r--  1 root     root      1229 Oct 20 16:46 kill_channel.php
+-rw-r--r--  1 root     root      1045 Oct 20 16:47 kill_chapter.php
+-rw-r--r--  1 root     root      1031 Oct 20 16:47 kill_playlist.php
+-rw-r--r--  1 root     root      2085 Oct 20 16:48 modify_chapter.php
+-rw-r--r--  1 root     root      4446 Oct 20 16:48 modify_playlist.php
+
+admin/publisher:
+total 8
+drwxr-xr-x  3 apache apache 4096 Oct 25 17:27 settings
+
+admin/publisher/settings:
+total 60
+-rw-r--r--  1 apache apache  254 Jul 25 07:39 cdn.php
+drwxr-xr-x  2 apache apache 4096 Oct 25 17:28 content
+-rw-r--r--  1 root   root    262 Oct 26 13:36 encoding.php
+-rw-r--r--  1 apache apache  256 Jun 18 15:05 logos_old.php
+-rw-r--r--  1 apache apache  256 Jul 25 07:37 logos.php
+-rw-r--r--  1 apache apache 1348 Jul 25 07:37 removeimage.php
+-rw-r--r--  1 apache apache 6241 Jul 25 07:37 upload_file.php
+
+admin/publisher/settings/content:
+total 448
+-rw-r--r--  1 apache apache   5163 Oct 20 14:42 cdn.php
+-rw-r--r--  1 root   root     3581 Oct 26 15:35 encoding.php
+-rw-r--r--  1 apache apache   6034 Oct 20 14:41 logos.php
+-rw-r--r--  1 apache apache 166351 May 29 15:46 your_cmslogo.psd
+-rw-r--r--  1 apache apache 163948 May 29 15:44 your_playerlogo.psd
+-rw-r--r--  1 apache apache  61952 May 29 15:37 your_watermark.fla
+
+admin/reports:
+total 76
+drwxr-xr-x  3 apache apache 4096 Jul  8 03:14 content
+-rw-r--r--  1 apache apache  296 May 30 16:49 excel.gif
+-rw-r--r--  1 apache apache  415 May 30 16:49 flv.gif
+-rw-r--r--  1 apache apache 2825 May 30 16:49 getRawLog.php
+-rw-r--r--  1 apache apache   41 May 30 16:49 green_bar.gif
+-rw-r--r--  1 apache apache  252 May 30 16:49 html.gif
+-rw-r--r--  1 apache apache   41 May 30 16:49 red_bar.gif
+-rw-r--r--  1 apache apache 4791 May 30 16:48 reports.inc
+-rw-r--r--  1 apache apache  254 Jun  4 22:06 tracking_ads.php
+
+admin/reports/content:
+total 72
+drwxr-xr-x  2 apache apache  4096 May 30 16:48 CVS
+-rw-r--r--  1 apache apache 23960 May 30 16:48 index.php
+-rw-r--r--  1 apache apache 11327 Jun 15 02:31 tracking_ads_bu.php
+-rw-r--r--  1 apache apache 14625 Oct 20 14:39 tracking_ads.php
+
+admin/reports/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 48 May 30 16:48 Entries
+-rw-r--r--  1 apache apache 37 May 30 16:48 Repository
+-rw-r--r--  1 apache apache 35 May 30 16:48 Root
+
+admin/templates:
+total 44
+-rw-r--r--  1 apache apache  153 Apr 11  2006 error_msg.tmpl
+-rw-r--r--  1 apache apache  291 Apr 11  2006 image.tmpl
+-rw-r--r--  1 apache apache 4125 Aug 15 01:33 main_pubtool_template.inc
+-rw-r--r--  1 root   root   2176 Oct 20 01:08 popwin_template.inc
+-rw-r--r--  1 apache apache  184 Apr 11  2006 related_articles.tmpl
+
+admin/test:
+total 16
+-rw-r--r--  1 apache apache 285 Aug 11 15:48 rename.php
+-rw-r--r--  1 apache apache   4 Aug 11 15:42 test.php
+
+admin/titles:
+total 16
+drwxr-xr-x  2 apache apache 4096 Aug  8 00:57 content
+-rw-r--r--  1 apache apache  252 Aug  8 00:57 edit.php
+
+admin/titles/content:
+total 32
+-rw-r--r--  1 apache apache 25837 Oct 20 15:35 edit.php
+
+admin/work:
+total 16
+drwxr-xr-x  3 apache apache 4096 Jun 29 02:06 credits
+drwxr-xr-x  5 apache apache 4096 Oct 24 10:23 spots
+
+admin/work/credits:
+total 156
+-rw-r--r--  1 apache apache   105 Apr 11  2006 admin.inc
+-rw-r--r--  1 apache apache  3368 Jun 22 11:09 admin.js
+-rw-r--r--  1 apache apache  1974 Jun 29 08:40 browse.php
+drwxr-xr-x  2 apache apache  4096 Jun 29 02:06 content
+-rw-r--r--  1 apache apache  1158 Jun 14 14:24 doCredits.php
+-rw-r--r--  1 apache apache   269 Oct 21 10:54 editCredits.php
+-rw-r--r--  1 apache apache 10745 Jun 14 14:30 functions.js
+-rw-r--r--  1 apache apache  1593 Jun  9 12:00 getDetails.php
+-rw-r--r--  1 apache apache   125 Jun 27 18:44 ico_contact.gif
+-rw-r--r--  1 apache apache   871 May 13 15:44 _index.php
+-rw-r--r--  1 apache apache   263 Oct 21 10:54 index.php
+-rw-r--r--  1 apache apache  7845 Jun 27 14:17 InlineCredits.php
+-rw-r--r--  1 apache apache   293 Jun 27 18:37 lookup.css
+-rw-r--r--  1 apache apache   426 Jun  2 13:13 lookup_type.js.php
+-rw-r--r--  1 apache apache   435 Jun  2 13:13 lookup_value.js.php
+-rw-r--r--  1 apache apache    76 May 31 17:18 new.gif
+-rw-r--r--  1 apache apache  2516 Jun  9 11:10 newItem.php
+-rw-r--r--  1 apache apache  1343 Jun 29 08:43 search_spot.php
+
+admin/work/credits/content:
+total 28
+-rw-r--r--  1 apache apache 8226 Oct 20 14:28 editCredits.php
+-rw-r--r--  1 apache apache 6373 Oct 26 10:36 index.php
+
+admin/work/spots:
+total 776
+-rw-r--r--  1 apache apache  1123 Oct 24 16:48 _1.jpg
+-rw-r--r--  1 apache apache   771 Oct 24 16:48 _2.jpg
+-rw-r--r--  1 apache apache  1338 Apr 11  2006 active.php
+-rw-r--r--  1 apache apache   237 Apr 11  2006 add_helptext.php
+-rw-r--r--  1 apache apache   105 Apr 11  2006 admin.inc
+drwxr-xr-x  3 apache apache  4096 May 13 15:44 backup
+-rw-r--r--  1 apache apache  2490 Apr 11  2006 browse_spot.php
+-rw-r--r--  1 apache apache   716 Apr 11  2006 _config.inc.php
+drwxr-xr-x  2 apache apache  4096 Oct 24 12:03 content
+-rw-r--r--  1 apache apache   865 Apr 11  2006 delete.php
+-rw-r--r--  1 apache apache   907 Jun 20 12:07 edit.gif
+-rw-r--r--  1 apache apache   259 Aug 11 12:38 edit.php
+-rw-r--r--  1 apache apache   262 Apr 11  2006 flvduration.php
+-rw-r--r--  1 apache apache  1359 Jun 30 10:00 flvList.php
+-rw-r--r--  1 apache apache     7 May 13 15:44 flvList.php.attachment00
+-rw-r--r--  1 apache apache   267 Apr 11  2006 FLVManager.php
+-rw-r--r--  1 apache apache  5130 Jul  2 01:27 flvprocess_old.php
+-rw-r--r--  1 apache apache  5098 Jun 30 09:54 flvprocess.php
+-rw-r--r--  1 apache apache   360 Jun 23 08:40 flvSave.php
+-rw-r--r--  1 apache apache  1789 Apr 11  2006 get_companies.php
+-rw-r--r--  1 apache apache 43161 May 13 15:44 getDetails_current.swf
+-rw-r--r--  1 apache apache 41337 Jul  2 15:11 getDetails_old.swf
+-rw-r--r--  1 apache apache 43022 May 13 15:44 getDetails[pc].swf
+-rw-r--r--  1 apache apache 43021 May 13 15:44 __getDetails.swf
+-rw-r--r--  1 apache apache 73685 Jul 13 18:21 getDetails.swf
+-rw-r--r--  1 apache apache   255 Aug 10 12:09 index.php
+-rw-r--r--  1 apache apache   237 Apr 11  2006 insert_image.php
+-rw-r--r--  1 apache apache   236 Apr 11  2006 insert_link.php
+-rw-r--r--  1 apache apache  1079 Jun 29 01:11 preview.gif
+drwxr-xr-x  3 apache apache  4096 Aug 14 20:55 process_functions
+-rw-r--r--  1 apache apache  6062 Oct 24 12:07 save.php
+-rw-r--r--  1 apache apache  1854 Apr 11  2006 search_spot.php
+-rw-r--r--  1 apache apache   267 Jun 19 11:23 syndicated.php
+-rw-r--r--  1 apache apache  1168 May 22 15:32 test.php
+-rw-r--r--  1 apache apache 75237 Jul 14 14:40 upload_processor_old.swf
+-rw-r--r--  1 apache apache 73685 Jul 11 13:45 __upload_processor.swf
+-rw-r--r--  1 apache apache 72406 Aug  7 02:57 upload_processor.swf
+-rw-r--r--  1 apache apache    62 May 22 22:51 _videoSettings.inc.php
+-rw-r--r--  1 apache apache   961 Jun 29 01:11 view.gif
+
+admin/work/spots/backup:
+total 260
+-rw-r--r--  1 apache apache  1305 May 13 15:44 active.php
+-rw-r--r--  1 apache apache   237 May 13 15:44 add_helptext.php
+-rw-r--r--  1 apache apache   105 May 13 15:44 admin.inc
+-rw-r--r--  1 apache apache  2456 May 13 15:44 browse_spot.php
+-rw-r--r--  1 apache apache   716 May 13 15:44 _config.inc.php
+drwxr-xr-x  3 apache apache  4096 May 13 15:44 content
+-rw-r--r--  1 apache apache   872 May 13 15:44 delete.php
+-rw-r--r--  1 apache apache   261 May 13 15:44 edit.php
+-rw-r--r--  1 apache apache  1787 May 13 15:44 get_companies.php
+-rw-r--r--  1 apache apache 43077 May 13 15:44 getDetails_current.swf
+-rw-r--r--  1 apache apache 42880 May 13 15:44 getDetails_old.swf
+-rw-r--r--  1 apache apache 42794 May 13 15:44 __getDetails.swf
+-rw-r--r--  1 apache apache   262 May 13 15:44 index.php
+-rw-r--r--  1 apache apache   237 May 13 15:44 insert_image.php
+-rw-r--r--  1 apache apache   236 May 13 15:44 insert_link.php
+-rw-r--r--  1 apache apache  6639 May 13 15:44 save.php
+-rw-r--r--  1 apache apache  1869 May 13 15:44 search_spot.php
+
+admin/work/spots/backup/content:
+total 96
+drwxr-xr-x  2 apache apache  4096 May 13 15:44 CVS
+-rw-r--r--  1 apache apache 23247 May 13 15:44 __edit.php
+-rw-r--r--  1 apache apache 23311 May 13 15:44 edit.php
+-rw-r--r--  1 apache apache  8925 May 13 15:44 __index.php
+-rw-r--r--  1 apache apache  9054 May 13 15:44 index.php
+
+admin/work/spots/backup/content/CVS:
+total 24
+-rw-r--r--  1 apache apache 188 May 13 15:44 Entries
+-rw-r--r--  1 apache apache  38 May 13 15:44 Repository
+-rw-r--r--  1 apache apache  35 May 13 15:44 Root
+
+admin/work/spots/content:
+total 204
+-rw-r--r--  1 apache apache 21458 Jul 25 12:16 edit.bak
+-rw-r--r--  1 apache apache 25806 Oct 24 15:43 edit.php
+-rw-r--r--  1 apache apache  6689 Aug 11 14:52 FLVManager.bak
+-rw-r--r--  1 apache apache  6957 Jun 29 01:18 FLVManager_old.php
+-rw-r--r--  1 apache apache  6846 Jul 18 01:49 FLVManager.php
+-rw-r--r--  1 apache apache  5341 Jun 10 14:55 flvprocess.php
+-rw-r--r--  1 apache apache   680 Jun 30 10:50 getDetails.php
+-rw-r--r--  1 apache apache 11644 Jul 25 12:16 index-bu2.php
+-rw-r--r--  1 apache apache 11783 Oct  2 00:24 index_bu.php
+-rw-r--r--  1 root   root   12327 Oct 26 10:15 index.php
+-rw-r--r--  1 apache apache 11920 Jul 25 12:16 syndicated.bak
+-rw-r--r--  1 apache apache 14881 Oct 20 14:32 syndicated.php
+
+admin/work/spots/process_functions:
+total 96
+-rw-r--r--  1 apache apache 1398 Aug 14 20:32 archive_media.php
+drwxr-xr-x  2 apache apache 4096 Aug 11 14:48 AS_Files
+-rw-r--r--  1 apache apache  939 Jul 14 12:31 check_media_exists.php
+-rw-r--r--  1 apache apache 1303 Jul 14 12:23 ftp_media.php
+-rw-r--r--  1 apache apache 1936 Aug  7 03:09 _functions.inc.php
+-rw-r--r--  1 apache apache 1727 Jul 14 13:13 get_media_list.php
+-rw-r--r--  1 apache apache 1316 Aug 10 23:51 _global.inc.php
+-rw-r--r--  1 apache apache 1089 Sep 26 17:39 insert_media.php
+-rw-r--r--  1 apache apache  290 Jul 17 08:39 output.php
+-rw-r--r--  1 apache apache 1376 Jul 14 12:26 rename_media.php
+-rw-r--r--  1 apache apache  577 Jul 10 17:30 set_media_duration.php
+-rw-rw-r--  1 apache apache    7 Aug 11 16:23 testing.php
+
+admin/work/spots/process_functions/AS_Files:
+total 1724
+-rw-r--r--  1 apache apache     158 Jul 10 12:24 _actions.as
+-rw-r--r--  1 apache apache     779 Jul 13 14:43 _buttons.as
+-rw-r--r--  1 apache apache    1551 Jul 13 15:45 _errorcodes.as
+-rw-r--r--  1 apache apache    8376 Jul 14 17:40 _functions.as
+-rw-r--r--  1 apache apache    3678 Aug  7 02:57 _initialize.as
+-rw-r--r--  1 apache apache    1639 Jul 13 13:28 _statuscodes.as
+-rw-r--r--  1 apache apache    4173 Jul 14 16:23 _steps.as
+-rw-r--r--  1 apache apache 1687552 Aug  7 02:42 upload_processor.fla

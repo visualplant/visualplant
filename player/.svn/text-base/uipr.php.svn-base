@@ -1,0 +1,12 @@
+<pre>
+<?php
+session_start();
+	$cookieName = "flvplayer_embedtrack";
+	$cookieValue = rand();
+//	header("Set-cookie: $cookieName=$cookieValue");
+	
+	
+print_r($_SESSION);
+ 
+?>
+</pre>

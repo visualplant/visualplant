@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<playlist version="1" xmlns="http://xspf.org/ns/0/" >
+
+<trackList>
+<track>
+<title>Powers of 10</title>
+<type>1</type>
+<freeForever>0</freeForever>
+<loginRequired>0</loginRequired>
+<paymentRequired>0</paymentRequired>
+<credittitle>Creators</credittitle>
+<creditvalue>Charles and Ray Eames</creditvalue>
+<height>180</height>
+<width>240</width>
+<trackNum>1</trackNum>
+<creator>IZNO TV</creator>
+<image>http://enterprise1.visualplant.net/vp-marketing/powersof10-20070528-130724-lg1.jpg</image>
+<location>http://enterprise1.visualplant.net/vp-marketing/powersof10-20070528-130724.flv</location>
+<logo>http://enterprise1.visualplant.net/vp-marketing/IZNO_TV_wm.swf</logo><annotation>Charles and Ray Eames explore film.</annotation>
+<album></album>
+<duration>484000</duration>
+<fulldescription>&lt;p&gt;A documentary about the known universe.&lt;/p&gt;
+&lt;p&gt;There a 1982 book of the same title, by &lt;a class=&quot;body&quot; href=&quot;http://en.wikipedia.org/wiki/Philip_Morrison&quot; target=&quot;_blank&quot;&gt;Philip Morrison&lt;/a&gt; and Phylis Morrison (Philip narrated the film). It contains a sequence of pictures starting with the &lt;a class=&quot;body&quot; href=&quot;http://en.wikipedia.org/wiki/Universe&quot; target=&quot;_blank&quot;&gt;universe&lt;/a&gt; and moving in powers of ten down to subatomic sizes.&lt;/p&gt;
+&lt;p&gt;There are similar films called:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a class=&quot;body&quot; href=&quot;http://en.wikipedia.org/wiki/Cosmic_Zoom&quot; target=&quot;_blank&quot;&gt;Cosmic Zoom&lt;/a&gt;&lt;/em&gt; (1968) which was based on an essay called &lt;a class=&quot;body&quot; href=&quot;http://en.wikipedia.org/wiki/Cosmic_View&quot;&gt;Cosmic View&lt;/a&gt;, by the &lt;a class=&quot;body&quot; href=&quot;http://en.wikipedia.org/wiki/National_Film_Board&quot; target=&quot;_blank&quot;&gt;National Film Board&lt;/a&gt; of Canada.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Simply Atomic&lt;/em&gt; (1972) based upon an outre comic fanzine.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a class=&quot;body&quot; href=&quot;http://en.wikipedia.org/wiki/Cosmic_Voyage&quot; target=&quot;_blank&quot;&gt;Cosmic Voyage&lt;/a&gt;&lt;/em&gt; (1996) an IMAX film.&lt;/li&gt;
+&lt;/ul&gt;</fulldescription>
+<identifier>ee1b15536d6f0522ff505388f10fbb22|2dbb8fcf</identifier>
+<date></date>
+<link></link>
+<info>http://iznotv.com/</info>
+</track>
+
+<track><title>Charles and RayEames</title>
+<type>3</type>
+<freeForever>0</freeForever>
+<loginRequired>0</loginRequired>
+<paymentRequired>0</paymentRequired>
+<credittitle></credittitle>
+<creditvalue></creditvalue>
+<height>349</height>
+<width>530</width>
+<trackNum>2</trackNum>
+<creator>IZNO TV</creator>
+<image>http://enterprise1.visualplant.net/vp-marketing/CharlesAndRayEames-20090414-175701-lg2.jpg</image>
+<location>http://enterprise1.visualplant.net/vp-marketing/CharlesAndRayEames-20090414-175701.jpg</location>
+<logo>http://enterprise1.visualplant.net/vp-marketing/watermarks/IZNO_TV_wm.swf</logo>
+<annotation></annotation>
+<album></album>
+<duration>0</duration>
+<fulldescription>A photo of the creators.</fulldescription>
+<identifier>ee1b15536d6f0522ff505388f10fbb22|b0d0888e</identifier>
+<date></date>
+<link></link>
+<info>http://iznotv.com/</info>
+</track>
+
+</trackList>
+</playlist>

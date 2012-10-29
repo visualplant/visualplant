@@ -1,0 +1,43 @@
+9
+
+dir
+349
+https://svn2.hosted-projects.com/visualplant/vpvenue/trunk/player/components
+https://svn2.hosted-projects.com/visualplant/vpvenue
+
+
+
+2009-02-14T19:07:02.110686Z
+2
+rcs
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+784f88d2-e2a0-4af7-bf20-6b4d42bfb364
+
+playlist_viewer
+dir
+
+media_library
+dir
+
+playlist_editor
+dir
+
+chapter_editor
+dir
+
+media_thumb
+dir
+

@@ -1,0 +1,13 @@
+<?php
+	//DISPLAY ERRORS
+	ini_set('display_errors', 1);
+	ini_set('log_errors', 1);
+	ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
+	error_reporting(E_ALL & ~E_NOTICE);
+	session_start();
+	include_once('../libs/config/config.php');
+	require_once(SITE_PATH.'classes/account_class.php');
+	$advert = new account_class;
+	$ad_array = $advert->process_clickthrough($_GET['seed'] .":". $_GET['time_diff']);
+	print_r($ad_array);
+?>

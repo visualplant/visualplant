@@ -1,0 +1,285 @@
+<head>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<META NAME="DESCRIPTION" CONTENT="Harness the power of cloud computing to scale up your video and scale down your costs.">
+<META NAME="KEYWORDS" CONTENT="VISUALPLANT, video platform, video cloud, cloud-based video, Internet Video, Internet Video Platform, Video CMS, encode, transcode, encoding, transcoding, Internet Media, Internet Media Platform, Social Media Platform, White-label Social Media, White-label Social Media Platform, Social Media Network, Content Delivery Network, streaming video, Content Mangement System, video-on-demand, Internet Video Solutions, Internet Media Solutions, Internet TV, Broadband Video, Internet Video Platform, Internet Media Platform, Video publishing tools, Media publishing tools, Internet video player, Internet media player, video player, Custom Video Player, DTV, online video, Video Publishing Tool, Video Magazines, Internet channel, Internet station, Video Blogging, Vlogging, on-demand Internet video, Rocketboom, IZNO TV, Video over IP, IPTV, TV on your PC, Interactive video, Web-based video, Web-based Internet TV, Mobile video, Broadband, Broadband Video, download video, Entertainment, Interactive Video Applications, interactive video applications, Video Player, online video, streaming media, streaming video, Video-on-demand">
+<META name="verify-v1" content="2weRp37fclIrqMjwWdyroM2KUK+FB6N44KJ5ACenjBw=" />
+
+<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+
+<title>VISUALPLANT: Video Platform / Developer API</title>
+<link rel="stylesheet" type="text/css" media="all" href="styles/screen.css" />
+<link rel="stylesheet" type="text/css" href="styles/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.2.3.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("a.zoom").fancybox();
+			
+		$("a.zoom1").fancybox();
+			
+		$("a.zoom2").fancybox({
+			'zoomSpeedIn'		:	500,
+			'zoomSpeedOut'		:	500,
+			'overlayShow'		:	false
+		});
+	});
+</script>
+
+
+</head>
+
+<body>
+
+<script src="js/quotator.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+  	$("#quotes").quotator({
+      	speed : 7000,
+      	json : "js/quotator_quotes.js"
+  	});
+  });
+  </script>
+  
+<script type="text/javascript" src="js/fadecode.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/fadeconfig.js" charset="UTF-8"></script> 
+
+<div id="site">
+
+<div id="logo">
+<a href="/" onclick="show_tab('1');return false;"><img src="images/VP-sitelogo.png" title="VISUALPLANT is a platform for companies to upload, manage and distribute video on the Internet." alt="VISULPLANT:&trade;"></a>
+	<span style="font-size:16px;font-weight:bold;"><i></i></span>
+</div>
+
+<div id="righttop">
+<div style="padding-bottom:7px;">
+served <b>954,110</b> videos yesterday
+</div>
+
+</div>
+
+<div id="globalnav" >
+
+<a href="product-overview.html" title="VISUALPLANT is a platform for companies to upload, manage and distribute video on the Internet." class="nav">Product</a>  &nbsp;&nbsp;<span class="pipe">&nbsp;</span>&nbsp;&nbsp;
+<a href="case-studies.html" title="How companies use this product" class="nav">Case studies</a> &nbsp;&nbsp;<span class="pipe">&nbsp;</span>&nbsp;&nbsp;
+<a href="about-us.html" title="About us" class="nav">Company</a>  &nbsp;&nbsp;<span class="pipe">&nbsp;</span>&nbsp;&nbsp;
+<a href="contact-us.html" title="Get in touch" class="nav">Contact us</a>  &nbsp;&nbsp;<span class="pipe">&nbsp;</span>&nbsp;&nbsp; 
+<a href="admin.html" title="Client login" class="nav"><b>Client login</b></a>
+
+</div>
+
+<script type="text/javascript">
+<!--
+	var activeTab = '1';
+	var activeMap = false;
+
+	function show_tab(tab)
+	{
+		if ($(tab) == undefined) return;
+		Element.hide(activeTab+'_tab');
+		var s = '';
+		$(activeTab).className = "tabs-inactive"
+		activeTab = tab;
+		$(activeTab).className = "tabs-active"
+		Element.show(activeTab+'_tab');
+
+	}
+
+//-->
+</script>
+
+<div id="pagebg">
+
+	<br /><br />
+
+	<div id="contentheader">Developer API</div>
+
+	<div id="navinternal">
+		<ul>
+		
+			<li><a href="product-overview.html" class="product"><span>Product Overview</span></a></li>
+			<li><a href="transcoding.html" title="Transcoding" class="product"><span>Transcoding</span></a></li>
+			<li><a href="cms.html" title="Content Management System" class="product"><span>CMS</span></a></li>
+			<li><a href="player.html" class="product"><span>Player</span></a></li>
+			<li><a href="developer-api.html" class="product"><span class='activePage'>Developer API</span></a></li>
+			<li><a href="network-of-networks.html" class="product"><span>Network of Networks</span></a></li>
+			<li><a href="cdn-partners.html" class="product"><span>CDNs</span></a></li>
+			<li><a href="user-generated-content.html" class="product"><span>User-generated Content</span></a></li>
+			<li><a href="pricing.html" class="product"><span>Pricing</span></a></li>
+		
+		</ul>
+	</div>
+
+	<div id="content">
+
+	Our Developer API offers a simple, powerful way to create custom Web sites, mobile and IPTV apps using standard
+	<acronym title='Representational State Transfer (REST) is a style of software architecture for distributed hypermedia systems such as the World Wide Web. The terms "Representational State Transfer" and "REST" were introduced in 2000 in the doctoral dissertation of Roy Fielding,[1] one of the principal authors of the Hypertext Transfer Protocol (HTTP) specification. The terms have since come into widespread use in the networking community. -WIKIPEDIA'>"REST"</acronym> 
+	and <acronym title='SOAP, originally defined as Simple Object Access Protocol, is a protocol specification for exchanging structured information in the implementation of Web Services in computer networks. -WIKIPEDIA'>"SOAP"</acronym> 
+	Web Services to access and modify content stored in your VISUALPLANT account. 
+	
+	<p>
+
+	<div style="float:left;padding:6px;background-color:#eee;border:1px solid #666;">
+	<b>Your content on VISUALPLANT</b>
+	<br clear="all">
+	<img src="images/VP-Admin-thumb.png">
+	</div>
+
+	<div style="float:left;padding-top:100px;"><img src="images/REST-API.png">
+	<p align="center">
+	<i>Protected feeds</i>
+	</p>
+	</div>
+
+	<div style="float:right;padding:6px;background-color:#eee;border:1px solid #666;">
+	<b>Your Internet Apps and Venues</b>
+	<br clear="all">
+
+ 
+	<embed id="vp_embed" allowFullScreen="true" src="player/flvplayer.swf" 
+	align="left" width="240" height="180" 
+	bgcolor="#FFFFFF" type="application/x-shockwave-flash" 
+	pluginspage="http://www.macromedia.com/go/getflashplayer" 
+	flashvars="file=xml/powers-of-ten.xml&skin=player/skins/modieus.swf&dock=false&stretching=uniform&autostart=false&showfsbutton=false&frontcolor=0xeeeeee&screencolor=0x000000&backcolor=0x222222&showcontrols=true&plugins=player/vplogo&vplogo.position=bottomright&vplogo.link=true&vplogo.lheight=30&vplogo.opacity=20&vpplaylist.bg=0x222222&vpplaylist.rotatetime=10&vpplaylist.position=bottom&vpplaylist.infodisplay=none&vpplaylist.infoposition=left&showdigits=false&vpplaylist.firstitem=cover&impressiontracker.webservice=http://webservices.visualplant.net/Core/PUT/XML&controlbar=bottom" allowScriptAccess="always" >
+
+	</div>
+
+	<p><br clear="all">
+
+	The VISUALPLANT API is based on the most popular data syndication formats: XML, JSON and XSPF.
+	<p>
+	Some things you can do with the VISUALPLANT Web Services API:
+
+	<UL>
+    <li> Customize your Web site to display your media library exactly as you wish.</li>
+    <li> Create AJAX, Flash widgets, plugins or apps to display your media content on 3rd-party Web sites, like FaceBook.</li>
+    <li> Create iPhone or other mobile apps that allow your users to interact with your content.</li>
+    <li> Create a desktop or IPTV applications providing all these features in your own customized environment.</li>
+	</UL>
+
+	If you use VISUALPLANT's fully-hosted solution, you are already leveraging the API
+	in an elaborate array of templates that we provide to you out-of-the-box.  
+	<p>
+	To extend use of your media library to integrate with your existing site or to
+	create highly-customized micro-sites, applications, widgets or FaceBook apps, we provide you with live, granular
+	access to your content to use in ways limited only by your imagination and development skill.
+	<p>
+
+	The VISUALPLANT API distributes your content anywhere <i>you choose</i> on the Internet. 
+
+	<p><br /><br />
+
+	</div> <!-- /content -->
+	
+</div> <!-- /pagebg -->
+
+
+<div id="startpanel">
+	<div style="text-align:center;position:relative;">
+	<a href="registerbeta.html" class="start" title="Start"><span class="displace">Start</span></a>
+	</div>
+</div>
+
+<div id="footer">
+
+<div style="float:left;margin-left:10px;width:30%;color:#999;">
+
+	<a href="case-studies.html" class="footer"><span style="letter-spacing:1px;font-weight:bold;">Case Studies <strong>&there4;</strong></span></a>
+	<div style="border-bottom:1px solid #bbb;margin-bottom:5px;"></div>
+		
+		<a href="case-studies.html#den" class="footer" title="A social network for architects and designers">Upstairs in the Material</a><br />
+		<a href="case-studies.html#cnyb" class="footer" title="The source for business news in the Big Apple">Crain's New York Business</a><br />
+		<a href="case-studies.html#creativity" class="footer" title="The source for advertising and creative production">Creativity</a><br />
+		<a href="case-studies.html#milesperhour" class="footer" title="A venue for independent film">Milesperhour</a><br />
+		<a href="case-studies.html#iznotv" class="footer" title="Unique video and slideshows">IZNO TV</a><br />
+		<a href="case-studies.html#dib" class="footer" title="Slideshows for graphics">Graphics Pros</a><br />
+		
+		<br clear="all">
+</div>
+
+<div style="float:left;margin-left:10px;width:30%;color:#999;">
+
+	<a href="product-overview.html" class="footer"><span style="letter-spacing:1px;font-weight:bold;">Product <strong>&there4;</strong></span></a>
+	<div style="border-bottom:1px solid #bbb;margin-bottom:5px;"></div>
+		
+		<a href="product-overview.html" class="footer" title="Product overview">Overview</a><br />
+		<a href="transcoding.html" class="footer" title="Encoding and Transcoding">Transcoding</a><br />
+		<a href="cms.html" class="footer" title="Content Mangement System">CMS</a><br />
+		<a href="player.html" class="footer" title="Player">Player</a><br />
+		<a href="network-of-networks.html" class="footer" title="Network of Networks">Network of Networks</a><br />
+		<a href="user-generated-content.html" class="footer" title="User-generated content">User-generated content</a><br />
+		<a href="developer-api.html" class="footer" title="Developer API">Developer API</a><br />
+		<a href="pricing.html" class="footer" title="Pricing">Pricing</a><br />
+		
+		<a href="admin.html" class="footer" title="Support for clients">Support</a><br />
+		<a href="#" class="footer" onclick="UserVoice.Popin.show(); return false;">Feedback</a><br />
+		
+		<br clear="all">
+</div>
+
+<div style="float:left;margin-left:10px;width:31%;color:#999;">
+
+	<a href="about-us.html" class="footer"><span style="letter-spacing:1px;font-weight:bold;">Company <strong>&there4;</strong></span></a>
+	<div style="border-bottom:1px solid #bbb;margin-bottom:5px;"></div>
+		
+		<a href="about-us.html" class="footer" title="About us">About us</a><br />
+		<a href="who-we-are.html" class="footer" title="Who we are">Who we are</a><br />
+		<a href="partners.html" class="footer" title="Partners">Partners</a><br />
+		<a href="jobs.html" class="footer" title="Jobs">Jobs</a><br />
+		<a href="privacy.html" class="footer" title="Privacy">Privacy</a><br />
+		<!-- <a href="blog.html" class="footer" title="Blog">Blog</a><br /> -->
+		<a href="contact-us.html" class="footer" title="Contact us">Contact us</a><br />
+		
+		<br clear="all">
+</div>
+	
+	<br clear="all">
+	
+	&nbsp;
+	
+</div> <!-- /footer -->
+
+
+<div id="footerfoot">&copy; VISUALPLANT LLC 2000 - 2012</div>
+
+<br clear="all">
+
+</div> <!-- /site -->
+
+	<script type="text/javascript" src="js/vptab.js"></script>
+	
+<script type="text/javascript">
+	object_mes_hashTab('benefit-tabs', 'benefit-content');
+</script>
+
+<script type="text/javascript">
+  var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+  document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Popin.setup({ 
+  key: 'visualplant',
+  host: 'feedback.visualplant.net', 
+  forum: 'general', 
+  lang: 'en'
+})
+    </script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write("\<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>\<\/script>" );
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1126766-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

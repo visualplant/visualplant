@@ -1,0 +1,92 @@
+<?php
+	define('VAR_SEP_CHAR','/');
+	define('VAR_VAL_SEP_CHAR','=');
+	session_start();
+	include_once('../libs/config/config.inc.php');
+	require_once(SITEPATH.'/classes/json.php');
+	$json = new Services_JSON;
+	include_once(SITEPATH.'/includes/datacache.php');
+
+/*	$lockFile = SITEPATH.'/cache/lockFile.lock';
+	$date = 0;
+	if (file_exists($lockFile)){
+		$date = file_get_contents($lockFile);
+	}*/
+
+	$addition = array();
+	
+	if (isset($_GET["hidden"])){
+		$addition["hidden"] = intval($_GET["hidden"]);
+	}
+	
+	if (isset($_GET["s"])){
+		$s = $_GET["s"];
+		$s = explode(VAR_SEP_CHAR,$s);
+		$temp = array();
+		for($i=0; $i<count($s); $i++) {
+			$var_val = explode(VAR_VAL_SEP_CHAR, $s[$i]); 
+			if (count($var_val)==2) {
+				$temp[$var_val[0]] = $var_val[1];
+			}
+			elseif (count($var_val)==1) {
+					$temp['s'] = $var_val[0];
+				} 
+		}
+		$s = $temp;
+		$temp = NULL;
+		
+		if (isset($s["max-results"])){
+			$addition["max-results"] = intval($s["max-results"]);
+		} elseif (isset($_GET["max-results"])){
+			$addition["max-results"] = intval($_GET["max-results"]);
+		}
+		$xspf = $cache->getContent('Playlist',array('refId',$s['s'], 'displayall'), $addition, 'XSPF');
+		if (substr_count($xspf, "<track>") > 0){
+			$debug = file_get_contents(VPSERVICEURL.'Core/Put/JSON/'.SITE_PASSKEY.'/impression/insert/'.$s['s'].'/P');
+		}
+	}else 
+		if (isset($_GET["category"]) && strtolower($_GET["category"]) == "top100"){
+			$xspf = $cache->getContent('TopWork',array('Top100',$_GET["date"]), $addition, 'XSPF');
+		}else 
+			if (isset($_GET["category"]) && strtolower($_GET["category"]) == "mostemailed"){
+				$xspf = $cache->getContent('TopWork',array('MostEmailed',$_GET["date"]), $addition, 'XSPF');
+			}else{
+				$xspf = $cache->getContent('Search',array('Category','Titles',$_GET['category']), $addition, 'XSPF');
+			}
+			
+	//header ( 'Content-Type: text/xml' ); echo($xspf); die;
+	if (isset($s["showcover"]) && $s["showcover"] == "true" && isset($s["s"])){
+		$strroll = '';
+		$data = $cache->getContent('Title',array($s['s']), $addition, 'SERIALIZE');
+		
+		if(isset($data->title_info)){
+			
+			$b = strpos($xspf,'<image>')+strlen('<image>');
+			$e = strpos($xspf,'</image>')-$b;
+			
+			$imageVal = substr($xspf,$b,$e);
+			
+			$strroll .= '<track>' . chr(13);
+			$strroll .= '<title>' .str_replace("+"," ",$data->title_info->title).'</title>';
+			$strroll .= '<identifier>'.SITE_PASSKEY."|".$data->title_info->refId.'</identifier>';
+			$strroll .= '<info/>';
+			$strroll .= '<trackNum>0</trackNum>';
+			$strroll .= '<album>preview</album>';
+			$strroll .= '<fulldescription>'.($data->title_info->descriptionSmall).'</fulldescription>';
+			if ($data->title_info->movieUrl != ""){
+				$imageVal = $data->title_info->cdn_host.$data->title_info->movieUrl."-lg".$data->title_info->thumbId.".jpg";
+			}
+			$strroll .= '<location>'.$imageVal.'</location>'	;
+			$strroll .= '<image>'.$imageVal.'</image>'	;
+			$strroll .= '</track>' . chr(13);
+			
+			$new_xspf = substr($xspf,0,strpos($xspf, "<trackList>") + strlen("<trackList>")).$strroll.substr($xspf,strpos($xspf, "<trackList>") + strlen("<trackList>"));
+			$xspf=$new_xspf;
+ 		
+		}
+		
+	}
+	header ( 'Content-Type: text/xml' );
+	echo $xspf;
+	include_once(SITEPATH.'/includes/timeoutchecker.php');
+?>

@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>VISUALPLANT: IVP&trade;</title>
+<link rel="stylesheet" type="text/css" href="styles/admin-login.css" />
+</head>
+<body style="overflow-x: hidden;">
+<!--IE FIX
+<div style="position:relative;top:50px;width:120%;height:100px;background-color:white;z-index:140;left:-20px;background-image:URL('http://admin.visualplant.net/themes/vp/images/bg.png');"></div>
+-->
+<!--OEF-->
+<div style="width:100%;left:0px;top:50px;position:absolute;z-index:150" align="center">
+
+
+
+
+
+
+<div id="login">
+
+	<div id="login_inner">
+
+		<div id="loginheader" align="left" style="color: #FFFFFF;">Admin Login</div>
+
+		<div id="login_hideshow">
+		<form name="loginform" action="admin.html" method="link">
+		<input type="hidden" name="next_page" value="/admin/" />
+		<p align="left"><label>Publisher:<br /> <input type="text" size="18" width="18" name="publisher" id="log_password" value="" tabindex="1" /></label></p>
+		<p align="left"><label>Username:<br /><input type="text" size="18" width="18" name="username" id="log_username" value="" tabindex="2" /></label></p>
+		<p align="left"><label>Password:<br /> <input type="password" size="18" width="18" name="password" id="log_password" tabindex="3" /></label></p>
+	
+
+		<p class="loginsubmit">
+		<input type="submit" name="submit" id="log_submit" value="Login &raquo;" tabindex="3" />
+		</p>
+	
+		</form>
+
+		<div id="forgotpw">
+		<a href="#" onClick="Javascript:document.getElementById('loginheader').innerHTML='Reset Password';document.getElementById('forgotpw_hideshow').style.display='';document.getElementById('login_hideshow').style.display='none';" class="navitem" title="Forgot your password?">Forgot your password?</a>
+		</div>
+	
+	</div><!-- /login_inner -->
+
+
+	<div id="forgotpw_hideshow" style="display:none;">
+	<form name="loginform" action="http://admin.visualplant.net/?action=account:login" method="post">
+  	<input type="hidden" name="forgotten" value="1">  	
+  	<p align="left"><label>Publisher:<br /> <input type="text" size="18" width="18" name="publisher" id="log_password" value="" tabindex="1" /></label></p>  	
+	<p align="left"><label>Username:<br /><input type="text" size="18" width="18" name="username" id="log_username" value="" tabindex="1" /></label></p>	
+	<p align="left"><label>Email Address:<br /> <input type="text" size="18" width="18" name="email" id="log_password" value="" tabindex="2" /></label></p>
+
+	<p class="loginsubmit">
+	<input type="submit" name="submit" id="log_submit" value="Recover &raquo;" tabindex="3" />
+	</p>
+
+	</form>
+
+		<div id="forgotpw">
+		<a href="#" onClick="Javascript:document.getElementById('loginheader').innerHTML='Admin Login';document.getElementById('forgotpw_hideshow').style.display='none';document.getElementById('login_hideshow').style.display='';" class="navitem" title="Forgot your password?">Cancel</a>
+		</div>
+	
+		<br/>
+
+		Enter your publisher <b>and</b> either your username or email address to reset your password. It will be e-mailed to you momentarily.
+	
+	</div> <!-- /forgotpw_hideshow -->
+
+</div> <!-- /login -->
+	
+</div> <!-- /absolute pos container -->
+
+<div style="width:100%;left:0px;position:absolute;z-index:150" align="center">
+
+	<div id="loginfooter">
+	<img src="images/poweredby_vp.gif" align="top" border="0" />
+	</div>
+
+</div>
+
+
+<script language="javascript">
+  var divel = document.getElementById('left_container');
+  divel.style.visibility = "hidden";
+
+  var divel = document.getElementById('header');
+  divel.style.visibility = "hidden";
+</script>
